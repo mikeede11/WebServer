@@ -1,0 +1,1456 @@
+ INFO: nweb starting:5000:3994
+ INFO: request:GET /index.html HTTP/1.0****:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET / HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:5000**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8**Sec-Fetch-Site: same-origin**Sec-Fetch-Mode: no-cors**Sec-Fetch-Dest: image**Referer: http://localhost:5000/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:3
+NOT FOUND: failed to open file:favicon.ico
+ INFO: request:GET /index.html HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.htmlf HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:6
+FORBIDDEN: file extension type not supported:GET /index.htmlf
+ INFO: request:GET /nigel.jpg HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:7
+ INFO: SEND:nigel.jpg:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:7
+FORBIDDEN: failed to read browser request:
+ INFO: nweb starting:5000:4285
+ERROR: system call:bind Errno=98 exiting pid=4285
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: request:GET /nigel.jpg HTTP/1.0****:10
+ INFO: SEND:nigel.jpg:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:10
+ INFO: request:GET / HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:12
+ INFO: SEND:index.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /nigel.jpg HTTP/1.1**Host: localhost:5000**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:11
+ INFO: SEND:nigel.jpg:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:11
+FORBIDDEN: failed to read browser request:
+ INFO: nweb starting:5000:67
+ INFO: nweb starting:5000:79
+ INFO: request:GET /index.html HTTP/1.0****:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: nweb starting:5000:92
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: nweb starting:5000:102
+ERROR: system call:bind Errno=98 exiting pid=102
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: nweb starting:5000:125
+ERROR: system call:bind Errno=98 exiting pid=125
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: nweb starting:5000:139
+ INFO: nweb starting:5000:164
+ERROR: system call:bind Errno=98 exiting pid=164
+ INFO: nweb starting:5000:175
+ERROR: system call:bind Errno=98 exiting pid=175
+ INFO: nweb starting:5000:255
+ INFO: nweb starting:5000:273
+ERROR: system call:bind Errno=98 exiting pid=273
+ INFO: nweb starting:5000:281
+ERROR: system call:bind Errno=98 exiting pid=281
+ INFO: nweb starting:5000:289
+
+ exiting pid=289
+ INFO: nweb starting:5000:4182
+ INFO: nweb starting:5000:4232
+ INFO: nweb starting:5000:4321
+ INFO: nweb starting:5000:4337
+ INFO: nweb starting:5000:4389
+ INFO: nweb starting:5000:4401
+ INFO: nweb starting:5000:4459
+ INFO: nweb starting:5000:4567
+ INFO: nweb starting:5000:4631
+ INFO: nweb starting:5000:4686
+ INFO: nweb starting:5000:4743
+ INFO: nweb starting:5000:4797
+ INFO: nweb starting:5000:4858
+ INFO: nweb starting:5000:4917
+ INFO: nweb starting:5000:4982
+ INFO: nweb starting:5000:5016
+ INFO: nweb starting:5000:5091
+ERROR: system call:bind Errno=98 exiting pid=5091
+ INFO: nweb starting:5000:5538
+ERROR: system call:bind Errno=98 exiting pid=5538
+ INFO: nweb starting:5000:5591
+ INFO: nweb starting:5000:5642
+ INFO: nweb starting:5000:5663
+ INFO: nweb starting:5000:5734
+ INFO: nweb starting:5000:5752
+ERROR: system call:bind Errno=98 exiting pid=5752
+ INFO: nweb starting:5000:5774
+ INFO: nweb starting:5000:5795
+ERROR: system call:bind Errno=98 exiting pid=5795
+ INFO: nweb starting:5000:5803
+ERROR: system call:bind Errno=98 exiting pid=5803
+ INFO: nweb starting:5000:5851
+ INFO: nweb starting:5000:406
+ INFO: nweb starting:5000:415
+ INFO: nweb starting:5000:700
+ INFO: nweb starting:5000:723
+ERROR: system call:bind Errno=98 exiting pid=723
+ INFO: nweb starting:5000:756
+ERROR: system call:bind Errno=98 exiting pid=756
+ INFO: nweb starting:5000:834
+ INFO: nweb starting:5000:971
+ INFO: nweb starting:5000:1072
+ INFO: nweb starting:5000:284
+ INFO: nweb starting:5000:300
+ INFO: nweb starting:5000:320
+ INFO: nweb starting:5000:346
+ INFO: nweb starting:5000:386
+ INFO: nweb starting:5000:409
+ INFO: nweb starting:5000:423
+ INFO: nweb starting:5000:666
+ERROR: system call:bind Errno=98 exiting pid=666
+ INFO: nweb starting:5000:679
+ERROR: system call:bind Errno=98 exiting pid=679
+ INFO: nweb starting:5000:697
+ERROR: system call:bind Errno=98 exiting pid=697
+ INFO: nweb starting:5000:710
+ERROR: system call:bind Errno=98 exiting pid=710
+ INFO: nweb starting:5000:728
+ERROR: system call:bind Errno=98 exiting pid=728
+ INFO: nweb starting:8000:741
+ INFO: nweb starting:5000:784
+ERROR: system call:bind Errno=98 exiting pid=784
+ INFO: nweb starting:5000:934
+ INFO: nweb starting:5000:1021
+ INFO: nweb starting:8000:1105
+ INFO: nweb starting:8000:1121
+ INFO: nweb starting:5000:1185
+ INFO: nweb starting:8000:1229
+ INFO: nweb starting:5000:1282
+ INFO: nweb starting:5000:1384
+ INFO: nweb starting:5000:1412
+ INFO: nweb starting:5000:1426
+ INFO: nweb starting:5000:1456
+ INFO: nweb starting:5000:1480
+ INFO: nweb starting:5000:1503
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1503
+
+ INFO: nweb starting:5000:1522
+ERROR: system call:bind Errno=98 exiting pid=1522 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:5000:1568
+ INFO: nweb starting:8000:283
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=283
+
+ INFO: nweb starting:8000:308
+ERROR: system call:bind Errno=98 exiting pid=308 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:327
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=327
+
+ INFO: nweb starting:8000:345
+ERROR: system call:bind Errno=98 exiting pid=345
+ INFO: nweb starting:8000:358
+ERROR: system call:bind Errno=98 exiting pid=358
+ INFO: nweb starting:8000:378
+ERROR: system call:bind Errno=98 exiting pid=378 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:400
+ERROR: system call:bind Errno=98 exiting pid=400
+ INFO: nweb starting:8000:412
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=412
+
+ INFO: nweb starting:8000:431
+ERROR: system call:bind Errno=98 exiting pid=431 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:451
+ERROR: system call:bind Errno=98 exiting pid=451
+ INFO: nweb starting:8000:462
+ERROR: system call:bind Errno=98 exiting pid=462
+ INFO: nweb starting:8000:474
+ERROR: system call:bind Errno=98 exiting pid=474
+ INFO: nweb starting:8000:485
+ERROR: system call:bind Errno=98 exiting pid=485 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:503
+ERROR: system call:bind Errno=98 exiting pid=503 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:523
+ERROR: system call:bind Errno=98 exiting pid=523 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:541
+ERROR: system call:bind Errno=98 exiting pid=541
+ INFO: nweb starting:8000:553
+ERROR: system call:bind Errno=98 exiting pid=553
+ INFO: nweb starting:8000:564
+ERROR: system call:bind Errno=98 exiting pid=564
+ INFO: nweb starting:8000:576
+ERROR: system call:bind Errno=98 exiting pid=576
+ INFO: nweb starting:8000:587
+ERROR: system call:bind Errno=98 exiting pid=587 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:607
+ERROR: system call:bind Errno=98 exiting pid=607
+ INFO: nweb starting:8000:618
+ERROR: system call:bind Errno=98 exiting pid=618 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:636
+ERROR: system call:bind Errno=98 exiting pid=636 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:668
+ERROR: system call:bind Errno=98 exiting pid=668 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:728
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=728
+
+ INFO: nweb starting:8000:743
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=743
+
+ INFO: nweb starting:8000:769
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=769
+
+ INFO: nweb starting:8000:799
+ERROR: system call:bind Errno=98 exiting pid=799 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:812
+ERROR: system call:bind Errno=98 exiting pid=812
+ INFO: nweb starting:8000:824
+ERROR: system call:bind Errno=98 exiting pid=824
+ INFO: nweb starting:8000:838
+ERROR: system call:bind Errno=98 exiting pid=838 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:851
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=851
+
+ INFO: nweb starting:8000:877
+ERROR: system call:bind Errno=98 exiting pid=877 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:900
+ERROR: system call:bind Errno=98 exiting pid=900 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:926
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=926
+
+ INFO: nweb starting:8000:945
+ERROR: system call:bind Errno=98 exiting pid=945
+ INFO: nweb starting:8000:957
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=957
+
+ INFO: nweb starting:8000:991
+ERROR: system call:bind Errno=98 exiting pid=991 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1003
+ERROR: system call:bind Errno=98 exiting pid=1003
+ INFO: nweb starting:8000:1015
+ERROR: system call:bind Errno=98 exiting pid=1015
+ INFO: nweb starting:8000:1027
+ERROR: system call:bind Errno=98 exiting pid=1027
+ INFO: nweb starting:8000:1042
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1042
+
+ INFO: nweb starting:8000:1065
+ INFO: request:GET index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1065
+
+ INFO: nweb starting:8000:1103
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1103
+
+ INFO: nweb starting:8000:1116
+ERROR: system call:bind Errno=98 exiting pid=1116
+ INFO: nweb starting:8000:1127
+ERROR: system call:bind Errno=98 exiting pid=1127
+ INFO: nweb starting:8000:1138
+ERROR: system call:bind Errno=98 exiting pid=1138
+ INFO: nweb starting:8000:1149
+ERROR: system call:bind Errno=98 exiting pid=1149
+ INFO: nweb starting:8000:1161
+ERROR: system call:bind Errno=98 exiting pid=1161 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1173
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1173
+
+ INFO: nweb starting:8000:1185
+ERROR: system call:bind Errno=98 exiting pid=1185
+ INFO: nweb starting:8000:1198
+ERROR: system call:bind Errno=98 exiting pid=1198
+ INFO: nweb starting:8000:1209
+ERROR: system call:bind Errno=98 exiting pid=1209
+ INFO: nweb starting:8000:1221
+ERROR: system call:bind Errno=98 exiting pid=1221
+ INFO: nweb starting:8000:1234
+ERROR: system call:bind Errno=98 exiting pid=1234
+ INFO: nweb starting:8000:1245
+ERROR: system call:bind Errno=98 exiting pid=1245
+ INFO: nweb starting:8000:1256
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1256
+
+ INFO: nweb starting:8000:1269
+ERROR: system call:bind Errno=98 exiting pid=1269
+ INFO: nweb starting:8000:1280
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1280
+
+ INFO: nweb starting:8000:1304
+ERROR: system call:bind Errno=98 exiting pid=1304 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1317
+ERROR: system call:bind Errno=98 exiting pid=1317
+ INFO: nweb starting:8000:1336
+ERROR: system call:bind Errno=98 exiting pid=1336 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1351
+ERROR: system call:bind Errno=98 exiting pid=1351 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1372
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1372
+
+ INFO: nweb starting:8000:1391
+ERROR: system call:bind Errno=98 exiting pid=1391
+ INFO: nweb starting:8000:1405
+ERROR: system call:bind Errno=98 exiting pid=1405
+ INFO: nweb starting:8000:1419
+ERROR: system call:bind Errno=98 exiting pid=1419
+ INFO: nweb starting:8000:1447
+ERROR: system call:bind Errno=98 exiting pid=1447 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1487
+ERROR: system call:bind Errno=98 exiting pid=1487 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:1508
+ERROR: system call:bind Errno=98 exiting pid=1508
+ INFO: nweb starting:8000:1522
+ERROR: system call:bind Errno=98 exiting pid=1522
+ INFO: nweb starting:8000:1535
+ERROR: system call:bind Errno=98 exiting pid=1535
+ INFO: nweb starting:8000:1550
+ERROR: system call:bind Errno=98 exiting pid=1550
+ INFO: nweb starting:5000:1597
+ INFO: request:GET /index.html HTTP/1.0****:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: nweb starting:8000:1666
+ INFO: nweb starting:8000:1676
+ERROR: system call:bind Errno=98 exiting pid=1676
+ INFO: nweb starting:8000:1690
+ERROR: system call:bind Errno=98 exiting pid=1690
+ INFO: nweb starting:8000:1694
+ERROR: system call:bind Errno=98 exiting pid=1694
+ INFO: nweb starting:8000:1698
+ERROR: system call:bind Errno=98 exiting pid=1698
+ INFO: nweb starting:8000:1705
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1705
+
+ INFO: nweb starting:8000:1724
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=1724
+
+ INFO: nweb starting:8000:260
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=260
+
+ INFO: nweb starting:8000:270
+ERROR: system call:bind Errno=98 exiting pid=270
+ INFO: nweb starting:8000:274
+ERROR: system call:bind Errno=98 exiting pid=274
+ INFO: nweb starting:8000:278
+ INFO: request:GET /index.html HTTP/1.0****:2ERROR: system call:bind Errno=98 exiting pid=278
+
+ INFO: nweb starting:8000:294
+ERROR: system call:bind Errno=98 exiting pid=294
+ INFO: nweb starting:8000:298
+ERROR: system call:bind Errno=98 exiting pid=298 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:309
+ERROR: system call:bind Errno=98 exiting pid=309 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: nweb starting:8000:325
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ERROR: system call:accept Errno=88 exiting pid=325 INFO: request:GET /index.html HTTP/1.0****:3
+
+ INFO: nweb starting:8000:337
+ERROR: system call:bind Errno=98 exiting pid=337
+ INFO: nweb starting:8000:341
+ERROR: system call:bind Errno=98 exiting pid=341
+ INFO: nweb starting:8000:345
+ERROR: system call:bind Errno=98 exiting pid=345
+ INFO: nweb starting:8000:351
+ INFO: request:GET /nigel.jpg HTTP/1.0****:2
+ INFO: SEND:nigel.jpg:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:2
+ERROR: system call:accept Errno=88 exiting pid=351 INFO: request:GET /index.html HTTP/1.0****:3
+
+ INFO: nweb starting:8000:359
+ERROR: system call:bind Errno=98 exiting pid=359
+ INFO: nweb starting:8000:364
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ERROR: system call:accept Errno=88 exiting pid=364
+ INFO: nweb starting:8000:373
+ INFO: request:GET /nigel.jpg HTTP/1.1**Host: localhost:8000**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:2
+ INFO: SEND:nigel.jpg:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:2
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8000**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45**Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8**Sec-Fetch-Site: same-origin**Sec-Fetch-Mode: no-cors**Sec-Fetch-Dest: image**Referer: http://localhost:8000/nigel.jpg**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:3ERROR: system call:accept Errno=88 exiting pid=373
+
+ INFO: nweb starting:8000:379
+ INFO: request:GET /nigel.jpg HTTP/1.1**Host: localhost:8000**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:2
+ INFO: SEND:nigel.jpg:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:2
+ERROR: system call:accept Errno=88 exiting pid=379
+ INFO: nweb starting:8000:384
+ INFO: request:GET /index.html HTTP/1.1**Host: localhost:8000**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9**Sec-Fetch-Site: none**Sec-Fetch-Mode: navigate**Sec-Fetch-User: ?1**Sec-Fetch-Dest: document**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.9****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ERROR: system call:accept Errno=88 exiting pid=384
+ INFO: nweb starting:8000:389
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ERROR: system call:accept Errno=88 exiting pid=389 INFO: request:GET /index.html HTTP/1.0****:3
+
+ INFO: nweb starting:8000:476
+ INFO: nweb starting:8000:486
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3ERROR: system call:accept Errno=88 exiting pid=486
+
+ INFO: nweb starting:8000:513
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3ERROR: system call:accept Errno=88 exiting pid=513
+
+ INFO: nweb starting:8000:522
+ERROR: system call:bind Errno=98 exiting pid=522
+ INFO: nweb starting:8000:528
+ERROR: system call:bind Errno=98 exiting pid=528
+ INFO: nweb starting:8000:531
+ERROR: system call:bind Errno=98 exiting pid=531
+ INFO: nweb starting:8000:550
+ INFO: nweb starting:8000:566
+ERROR: system call:bind Errno=98 exiting pid=566
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3ERROR: system call:accept Errno=88 exiting pid=550
+
+ INFO: nweb starting:8000:590
+ INFO: nweb starting:8000:623
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3ERROR: system call:accept Errno=88 exiting pid=623
+
+ INFO: nweb starting:8000:653
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3ERROR: system call:accept Errno=88 exiting pid=653
+
+ INFO: nweb starting:8000:678
+ERROR: system call:bind Errno=98 exiting pid=678
+ INFO: nweb starting:8000:682
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: nweb starting:8000:734
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: nweb starting:8000:857
+ERROR: system call:bind Errno=98 exiting pid=857
+ INFO: nweb starting:8000:861
+ERROR: system call:bind Errno=98 exiting pid=861
+ INFO: nweb starting:8000:865
+ERROR: system call:bind Errno=98 exiting pid=865
+ INFO: nweb starting:8000:869
+ERROR: system call:bind Errno=98 exiting pid=869
+ INFO: nweb starting:8000:873
+ERROR: system call:bind Errno=98 exiting pid=873
+ INFO: nweb starting:8000:877
+ERROR: system call:bind Errno=98 exiting pid=877
+ INFO: nweb starting:8000:900
+ERROR: system call:bind Errno=98 exiting pid=900
+ INFO: nweb starting:8000:902
+ERROR: system call:bind Errno=98 exiting pid=902
+ INFO: nweb starting:8000:904
+ERROR: system call:bind Errno=98 exiting pid=904
+ INFO: nweb starting:8000:926
+ERROR: system call:bind Errno=98 exiting pid=926
+ INFO: nweb starting:8000:947
+ERROR: system call:bind Errno=98 exiting pid=947
+ INFO: nweb starting:8000:950
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:980
+ERROR: system call:bind Errno=98 exiting pid=980
+ INFO: nweb starting:8000:987
+ERROR: system call:bind Errno=98 exiting pid=987
+ INFO: nweb starting:8000:991
+ERROR: system call:bind Errno=98 exiting pid=991
+ INFO: nweb starting:8000:994
+ERROR: system call:bind Errno=98 exiting pid=994
+ INFO: nweb starting:8000:998
+ERROR: system call:bind Errno=98 exiting pid=998
+ INFO: nweb starting:8000:1002
+ERROR: system call:bind Errno=98 exiting pid=1002
+ INFO: nweb starting:8000:1006
+ERROR: system call:bind Errno=98 exiting pid=1006
+ INFO: nweb starting:8000:1010
+ERROR: system call:bind Errno=98 exiting pid=1010
+ INFO: nweb starting:8000:1014
+ERROR: system call:bind Errno=98 exiting pid=1014
+ INFO: nweb starting:8000:1018
+ERROR: system call:bind Errno=98 exiting pid=1018
+ INFO: nweb starting:8000:1022
+ERROR: system call:bind Errno=98 exiting pid=1022
+ INFO: nweb starting:8000:1043
+ERROR: system call:bind Errno=98 exiting pid=1043
+ INFO: nweb starting:8000:1046
+ INFO: nweb starting:8000:1051
+ERROR: system call:bind Errno=98 exiting pid=1051
+ INFO: nweb starting:8000:1054
+ERROR: system call:bind Errno=98 exiting pid=1054
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:1065
+ERROR: system call:bind Errno=98 exiting pid=1065
+ INFO: nweb starting:8000:1069
+ERROR: system call:bind Errno=98 exiting pid=1069
+ INFO: nweb starting:8000:1079
+ INFO: nweb starting:8000:1082
+ERROR: system call:bind Errno=98 exiting pid=1082
+ INFO: nweb starting:8000:1085
+ERROR: system call:bind Errno=98 exiting pid=1085
+ INFO: nweb starting:8000:1088
+ERROR: system call:bind Errno=98 exiting pid=1088
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: nweb starting:8000:1103
+ERROR: system call:bind Errno=98 exiting pid=1103
+ INFO: nweb starting:8000:1107
+ INFO: nweb starting:8000:1110
+ERROR: system call:bind Errno=98 exiting pid=1110
+ INFO: nweb starting:8000:1113
+ERROR: system call:bind Errno=98 exiting pid=1113
+ INFO: nweb starting:8000:1116
+ERROR: system call:bind Errno=98 exiting pid=1116
+ INFO: nweb starting:8000:1119
+ERROR: system call:bind Errno=98 exiting pid=1119
+ INFO: nweb starting:8000:1122
+ERROR: system call:bind Errno=98 exiting pid=1122
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: request:GET /index.html HTTP/1.0****:8
+ INFO: SEND:index.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: nweb starting:8000:1177
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:1210
+ERROR: system call:bind Errno=98 exiting pid=1210
+ INFO: nweb starting:8000:1213
+ERROR: system call:bind Errno=98 exiting pid=1213
+ INFO: nweb starting:8000:1216
+ERROR: system call:bind Errno=98 exiting pid=1216
+ INFO: nweb starting:8000:1219
+ERROR: system call:bind Errno=98 exiting pid=1219
+ INFO: nweb starting:8000:1222
+ERROR: system call:bind Errno=98 exiting pid=1222
+ INFO: nweb starting:8000:1226
+ INFO: nweb starting:8000:1229
+ERROR: system call:bind Errno=98 exiting pid=1229
+ INFO: nweb starting:8000:1232
+ERROR: system call:bind Errno=98 exiting pid=1232
+ INFO: nweb starting:8000:1235
+ERROR: system call:bind Errno=98 exiting pid=1235
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:1262
+ERROR: system call:bind Errno=98 exiting pid=1262
+ INFO: nweb starting:8000:1264
+ERROR: system call:bind Errno=98 exiting pid=1264
+ INFO: nweb starting:8000:1266
+ERROR: system call:bind Errno=98 exiting pid=1266
+ INFO: nweb starting:8000:1268
+ERROR: system call:bind Errno=98 exiting pid=1268
+ INFO: nweb starting:8000:1271
+ERROR: system call:bind Errno=98 exiting pid=1271
+ INFO: nweb starting:8000:1273
+ERROR: system call:bind Errno=98 exiting pid=1273
+ INFO: nweb starting:8000:1275
+ERROR: system call:bind Errno=98 exiting pid=1275
+ INFO: nweb starting:8000:1277
+ERROR: system call:bind Errno=98 exiting pid=1277
+ INFO: nweb starting:8000:1279
+ERROR: system call:bind Errno=98 exiting pid=1279
+ INFO: nweb starting:8000:1281
+ERROR: system call:bind Errno=98 exiting pid=1281
+ INFO: nweb starting:8000:1283
+ERROR: system call:bind Errno=98 exiting pid=1283
+ INFO: nweb starting:8000:1285
+ERROR: system call:bind Errno=98 exiting pid=1285
+ INFO: nweb starting:8000:1287
+ERROR: system call:bind Errno=98 exiting pid=1287
+ INFO: nweb starting:8000:1289
+ERROR: system call:bind Errno=98 exiting pid=1289
+ INFO: nweb starting:8000:1291
+ERROR: system call:bind Errno=98 exiting pid=1291
+ INFO: nweb starting:8000:1293
+ERROR: system call:bind Errno=98 exiting pid=1293
+ INFO: nweb starting:8000:1295
+ERROR: system call:bind Errno=98 exiting pid=1295
+ INFO: nweb starting:8000:1297
+ERROR: system call:bind Errno=98 exiting pid=1297
+ INFO: nweb starting:8000:1299
+ERROR: system call:bind Errno=98 exiting pid=1299
+ INFO: nweb starting:8000:1301
+ERROR: system call:bind Errno=98 exiting pid=1301
+ INFO: nweb starting:8000:1303
+ERROR: system call:bind Errno=98 exiting pid=1303
+ INFO: nweb starting:8000:1324
+ERROR: system call:bind Errno=98 exiting pid=1324
+ INFO: nweb starting:8000:1330
+ INFO: nweb starting:8000:1332
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: request:GET /index.html HTTP/1.0****:8
+ INFO: SEND:index.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: nweb starting:8000:1376
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:1405
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: request:GET /index.html HTTP/1.0****:8
+ INFO: SEND:index.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: request:GET /index.html HTTP/1.0****:12
+ INFO: SEND:index.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /index.html HTTP/1.0****:13
+ INFO: SEND:index.html:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:13
+ INFO: request:GET /index.html HTTP/1.0****:14
+ INFO: SEND:index.html:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14
+ INFO: request:GET /index.html HTTP/1.0****:15
+ INFO: SEND:index.html:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:15
+ INFO: request:GET /index.html HTTP/1.0****:16
+ INFO: SEND:index.html:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:16
+ INFO: nweb starting:8000:1458
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:1483
+ERROR: system call:bind Errno=98 exiting pid=1483
+ INFO: nweb starting:8000:1485
+ERROR: system call:bind Errno=98 exiting pid=1485
+ INFO: nweb starting:8000:1487
+ERROR: system call:bind Errno=98 exiting pid=1487
+ INFO: nweb starting:8000:1489
+ERROR: system call:bind Errno=98 exiting pid=1489
+ INFO: nweb starting:8000:1491
+ERROR: system call:bind Errno=98 exiting pid=1491
+ INFO: nweb starting:8000:1493
+ERROR: system call:bind Errno=98 exiting pid=1493
+ INFO: nweb starting:8000:1495
+ERROR: system call:bind Errno=98 exiting pid=1495
+ INFO: nweb starting:8000:1497
+ERROR: system call:bind Errno=98 exiting pid=1497
+ INFO: nweb starting:8000:1518
+ INFO: nweb starting:8000:1525
+ INFO: nweb starting:8000:1556
+ INFO: nweb starting:8000:1581
+ INFO: nweb starting:8000:1608
+ INFO: nweb starting:8000:1611
