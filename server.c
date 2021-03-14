@@ -63,7 +63,10 @@ void logger(int type, char *s1, char *s2, int socket_fd)
 		safeWrite(fd,"\n",1, "Write Error: ");      
 		(void)close(fd);
 	}
+	printf("ENDlOGGER");
+
 	if(type == ERROR || type == NOTFOUND || type == FORBIDDEN) exit(3);
+	printf("actual end logger");
 }
 
 void safeWrite(int fd, void* buf, size_t cnt, char* msg){
@@ -79,7 +82,6 @@ pthread_cond_t cond_varQueue;
 int* requests;
 int currentReqCount = 0;
 int hit;
-int listenfd;
 
 void * threadReqProc(void * args){
 	while(1){
@@ -88,7 +90,7 @@ void * threadReqProc(void * args){
 
 		pthread_mutex_lock(&mutexQueue);
 		while(currentReqCount == 0){
-			printf("Condwait called");
+			printf("Condwait called %d", currentReqCount);
 			pthread_cond_wait(&cond_varQueue, &mutexQueue);
 		}
 		socket = requests[0];
@@ -98,16 +100,20 @@ void * threadReqProc(void * args){
 		}
 		currentReqCount--;
 		hitNum = hit;
-		(void)close(listenfd);
+		// (void)close(listenfd);
+		printf("SOCKETFD'S VALUE IS %d ", socket);
 		pthread_mutex_unlock(&mutexQueue);
-		printf("HELOO WEB");
+		printf("Statement B4 WEB");
+		for(int j = 0; j < 5000000000; j++);
 		web(socket, hitNum);
+		//web(socket, hitNum);
 	}
 }
 /* this is a child web server process, so we can exit on errors
 static buffer and extension struct */
 void web(int fd, int hitArg)
 {
+	printf("BegWeb");
 	int j, file_fd, buflen;
 	long i, ret, len;
 	char * fstr;
@@ -116,25 +122,36 @@ void web(int fd, int hitArg)
 
 	ret =read(fd,buffer,BUFSIZE); 	/* read Web request in one go */
 	/*cond var - or maybe as long as we use buffer*/
+	printf("MidWeb-4");
 	if(ret == 0 || ret == -1) {	/* read failure stop now */
 		logger(FORBIDDEN,"failed to read browser request","",fd);
 	}
-	if(ret > 0 && ret < BUFSIZE)	/* return code is valid chars */
+	printf("MidWeb-3");
+	if(ret > 0 && ret < BUFSIZE){	/* return code is valid chars */
 		buffer[ret]=0;		/* terminate the buffer */
-	else buffer[0]=0;
+		printf("BIK1");
+	}else{
+	 	buffer[0]=0;
+		 printf("Buffer had Nothing");
+	}
+	printf("MidWeb-2");
 	for(i=0;i<ret;i++)	/* remove CF and LF characters */
 		if(buffer[i] == '\r' || buffer[i] == '\n')
 			buffer[i]='*';
+	printf("MidWeb-1");
 	logger(LOG,"request",buffer,hitArg);
+	printf("MidWeb");
 	if( strncmp(buffer,"GET ",4) && strncmp(buffer,"get ",4) ) {//is request valid format?
 		logger(FORBIDDEN,"Only simple GET operation supported",buffer,fd);
 	}
+	printf("MidWeb2");
 	for(i=4;i<BUFSIZE;i++) { /* null terminate after the second space to ignore extra stuff */
 		if(buffer[i] == ' ') { /* string is "GET URL " +lots of other stuff */
 			buffer[i] = 0;
 			break;
 		}
 	}
+	printf("MidWeb3");
 	for(j=0;j<i-1;j++) 	/* check for illegal parent directory use .. */
 		if(buffer[j] == '.' && buffer[j+1] == '.') {
 			logger(FORBIDDEN,"Parent directory (..) path names not supported",buffer,fd);
@@ -152,17 +169,22 @@ void web(int fd, int hitArg)
 			break;
 		}
 	}
+	printf("MidWeb4");
 	if(fstr == 0) logger(FORBIDDEN,"file extension type not supported",buffer,fd);
-
+	printf("MidWeb4.5");
+	for(int i = 4; i < buflen; i++){
+		printf("%c", buffer[i]);
+	}
 	if(( file_fd = open(&buffer[5],O_RDONLY)) == -1) {  /* open the file for reading */
 		logger(NOTFOUND, "failed to open file",&buffer[5],fd);
 	}
+	printf("MidWeb5");
 	logger(LOG,"SEND",&buffer[5],hitArg);
 	len = (long)lseek(file_fd, (off_t)0, SEEK_END); /* lseek to the file end to find the length */
 	      (void)lseek(file_fd, (off_t)0, SEEK_SET); /* lseek back to the file start ready for reading */
           (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0\nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, len, fstr); /* Header + a blank line */
 	logger(LOG,"Header",buffer,hitArg);
-	printf("HELLOOOOO");
+	printf("LOGGER MID 6");
 	safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
 	
     /* Send the statistical headers described in the paper, example below
@@ -172,7 +194,7 @@ void web(int fd, int hitArg)
     */
     
     /* send file in 8KB block - last block may be smaller */
-	printf("HELLOOOOO");
+	printf("LOGGER MID 7");
 	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {
 		safeWrite(fd,buffer,ret, "Write Error: ");
 	}
@@ -183,14 +205,14 @@ void web(int fd, int hitArg)
 
 int main(int argc, char **argv)
 {
-	int i, port, socketfd, thread_pool_size;//listenfd is file descriptor to listening socket. 
+	int i, port, listenfd, socketfd, thread_pool_size, bufferSize;//listenfd is file descriptor to listening socket. 
 	//socketfd is the socket of the client (where request is coming from/or the return addr)
 	socklen_t length;
 	static struct sockaddr_in cli_addr; /* static = initialised to zeros */
 	static struct sockaddr_in serv_addr; /* static = initialised to zeros */
 	/*PART 1 OF MAIN - Ensure server is executed with a portnumber 
 	specified and a dir(Top dir) where server can fetch files from (./)*/
-	if( argc < 4  || argc > 4 || !strcmp(argv[1], "-?") ) {
+	if( argc < 5  || argc > 5 || !strcmp(argv[1], "-?") ) {
 		(void)printf("hint: nweb Port-Number Top-Directory\t\tversion %d\n\n"
 	"\tnweb is a small and very safe mini web server\n"
 	"\tnweb only servers out file/web pages with extensions named below\n"
@@ -229,15 +251,16 @@ int main(int argc, char **argv)
 	if((thread_pool_size = atoi(argv[3])) == 0){//HMM doesnt take 10 arg
 		thread_pool_size = 5;//get_nprocs();
 	}
-	printf("LOOK THIS THE THE THREADPOOL SIZE: %d", thread_pool_size);
-	requests = (int*)malloc(sizeof(int )* thread_pool_size);//test
-	/*if(fork() != 0)
-		return 0;  parent returns OK to shell - so parent is gone? yes
-	(void)signal(SIGCHLD, SIG_IGN);  ignore child death b/c main needs to be receiving requests 
-	(void)signal(SIGHUP, SIG_IGN);  ignore terminal hangups -client-server?
-	for(i=0;i<32;i++)
-		(void)close(i);		close open files why?
-	(void)setpgrp();*/		/*break away from process group so its not effected by user like logging off*/
+	printf("LOOK THIS THE THE THREADPOOL SIZE: %d\n", thread_pool_size);
+	bufferSize = atoi(argv[4]);
+	requests = (int*)malloc(sizeof(int )* bufferSize);//test
+	// if(fork() != 0)
+	// 	return 0;  //parent returns OK to shell - so parent is gone? yes
+	// (void)signal(SIGCHLD, SIG_IGN); // ignore child death b/c main needs to be receiving requests 
+	// (void)signal(SIGHUP, SIG_IGN); // ignore terminal hangups -client-server?
+	// for(i=0;i<32;i++)
+	// 	(void)close(i);		//close open files why?
+	// (void)setpgrp();		/*break away from process group so its not effected by user like logging off*/
 	logger(LOG,"nweb starting",argv[1],getpid());
 	printf("Hello in child");
 	if (pthread_mutex_init(&mutexQueue, NULL) != 0) {                                  
@@ -254,10 +277,10 @@ int main(int argc, char **argv)
 	pthread_t* threads = (pthread_t*)malloc(sizeof(pthread_t)* thread_pool_size);
 	for(int i = 0; i < thread_pool_size;i++){
 		if(pthread_create(&threads[i], NULL, &threadReqProc, NULL) != 0){
-			printf("failed to create threads");
+			printf("failed to create threads\n");
 		}
 		else{
-			fprintf(stdout, "created Thread!");
+			fprintf(stdout, "created Thread!\n");
 		}
 	}
 	//two cond var concepts A) a dispatcher thread whos cond var is to aportion a client request to a thread when one is available a thread needs to signal once its done
@@ -265,7 +288,7 @@ int main(int argc, char **argv)
 	//fprintf(stdout, "HIYA");
 
 	/* SETUP THE NETWORK SOCKET */
-	for(hit=1; ;hit++) {//reestablish connection
+	//reestablish connection
 	if((listenfd = socket(AF_INET, SOCK_STREAM,0)) <0)//we have a handle to the socket
 		logger(ERROR, "system call","socket",0);
 	port = atoi(argv[1]);
@@ -277,7 +300,7 @@ int main(int argc, char **argv)
 	serv_addr.sin_port = htons(port);//(client meet me at port...)
 	if(bind(listenfd, (struct sockaddr *)&serv_addr,sizeof(serv_addr)) <0)//bind() associates the socket with its local address [that's why server side binds, so that clients can use that address to connect to server.]
 		logger(ERROR,"system call","bind",0);
-	if( listen(listenfd,64) <0){//this socket is for recieving and can queue 64 requests
+	if( listen(listenfd,bufferSize) <0){//this socket is for recieving and can queue 64 requests
 		logger(ERROR,"system call","listen",0);
 	}
 	//fprintf(stdout, "LINE 272");
@@ -286,17 +309,34 @@ int main(int argc, char **argv)
 	//I assume its foucsed on accept b/c theres no waiting really it just sends errorback to client.
 	//this isnt what our server should be doing. it should process request when it has available thread.
 	
+	for(hit=1; ;hit++) {
 		length = sizeof(cli_addr);
+		printf("Buffer BEFORE ACCEPT\n");
 		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)//wait for requests from client put 
 			logger(ERROR,"system call","accept",0);
+		
+		printf("Buffer LOCK\n");
 		pthread_mutex_lock(&mutexQueue);
+		printf("Buffer LOCK 22222222\n");
 		/*while(busy_threads >= thread_pool_size){//queue count >= thread pool size
 			pthread_cond_wait(&cond_var, &mutex)
 		}*/
-		requests[currentReqCount++] = socketfd;
+		printf("SOCKETFD'S VALUE IS %d and listenfd's value is %d", socketfd, listenfd);
+		printf("\n\nBUFFER SIZE: %d\n", currentReqCount);
+		if(currentReqCount < bufferSize){
+			requests[currentReqCount++] = socketfd;
+		}
+		else{
+			printf("Buffer Full!\n");
+		}
+		printf("Buffer something\n");
+
 		pthread_mutex_unlock(&mutexQueue);
+		printf("Buffer something 2222222\n");
 		pthread_cond_signal(&cond_varQueue);
-		//(void)close(socketfd);
+		printf("Buffer something 333333333\n");
+		//printf("%d",currentReqCount);
+		//(void)close(socketfd); // put at end of web function
 		
 		//fill up a queue of socketfds as long as possible or number of threads.
 		//give the threads a method that takes the socketfd from the queue when queue is not empty.
@@ -314,11 +354,11 @@ int main(int argc, char **argv)
 			}
 		}*/
 	}
-	for(i = 0; i < thread_pool_size;i++){
+	/*for(i = 0; i < thread_pool_size;i++){
 		if(pthread_join(threads[i], NULL) != 0){
 			printf("failed to create threads");
 		}
-	}
+	}*/
 	pthread_mutex_destroy(&mutexQueue);
     pthread_cond_destroy(&cond_varQueue);
 }
