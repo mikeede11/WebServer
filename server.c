@@ -203,37 +203,40 @@ void web(RequestData req, int hitArg)
 	}
 	printf("MidWeb5");
 	logger(LOG,"SEND",&buffer[5],hitArg);
+	gettimeofday(&requestCompletion, NULL);
 	len = (long)lseek(file_fd, (off_t)0, SEEK_END); /* lseek to the file end to find the length */
 	      (void)lseek(file_fd, (off_t)0, SEEK_SET); /* lseek back to the file start ready for reading */
-          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0\nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, len, fstr); /* Header + a blank line */
+          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0\nContent-Length: %ld\nConnection: close\nContent-Type: %s\nX-stat-req-arrival-count: %d\nX-stat-req-arrival-time: %ld\nX-stat-req-dispatch-count: %d\nX-stat-req-dispatch-time: %ld\nX-stat-req-complete-count: %d\nX-stat-req-complete-time: %ld\n\n", VERSION, len, fstr, req.xStatReqArrivalCount,req.xStatReqArrivalTime,req.xStatReqDispatchCount, req.xStatReqDispatchTime, xStatReqCompleteCount++,(requestCompletion.tv_sec * 1000000 + requestCompletion.tv_usec) - (serverStartStamp.tv_sec * 1000000 + serverStartStamp.tv_usec)); /* Header + a blank line */
 	logger(LOG,"Header",buffer,hitArg);
 	printf("LOGGER MID 6");
 	printf("Buffer Before Send %s", buffer);
-	safeWrite(fd,buffer,strlen(buffer), "Write Error: ");//puts the contents of index.html into buffer
+	
     // Send the statistical headers described in the paper, example below
     
     // (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", xStatReqArrivalCount);
+	//  (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
+	// (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", req.xStatReqArrivalCount);//it can be a race condition - b/c thats what it is.
 	// (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	(void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", req.xStatReqArrivalCount);//it can be a race condition - b/c thats what it is.
-	(void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	(void)sprintf(buffer,"X-stat-req-arrival-time: %ld\r\n", req.xStatReqArrivalTime);//it can be a race condition - b/c thats what it is.
-	(void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	(void)sprintf(buffer,"X-stat-req-dispatch-count: %d\r\n", req.xStatReqDispatchCount);//it can be a race condition - b/c thats what it is.
-	(void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	(void)sprintf(buffer,"X-stat-req-dispatch-time: %ld\r\n", req.xStatReqDispatchTime);//it can be a race condition - b/c thats what it is.
-	(void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	(void)sprintf(buffer,"X-stat-req-complete-count: %d\r\n", xStatReqCompleteCount++);//it can be a race condition - b/c thats what it is.
-	(void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	gettimeofday(&requestCompletion, NULL);
-	(void)sprintf(buffer,"X-stat-req-complete-time: %ld\r\n", (requestCompletion.tv_sec * 1000000 + requestCompletion.tv_usec) - (serverStartStamp.tv_sec * 1000000 + serverStartStamp.tv_usec));
-	(void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
+	// (void)sprintf(buffer,"X-stat-req-arrival-time: %ld\r\n", req.xStatReqArrivalTime);//it can be a race condition - b/c thats what it is.
+	// (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
+	// (void)sprintf(buffer,"X-stat-req-dispatch-count: %d\r\n", req.xStatReqDispatchCount);//it can be a race condition - b/c thats what it is.
+	// (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
+	// (void)sprintf(buffer,"X-stat-req-dispatch-time: %ld\r\n", req.xStatReqDispatchTime);//it can be a race condition - b/c thats what it is.
+	// (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
+	// (void)sprintf(buffer,"X-stat-req-complete-count: %d\r\n", xStatReqCompleteCount++);//it can be a race condition - b/c thats what it is.
+	// (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
+	// gettimeofday(&requestCompletion, NULL);
+	// (void)sprintf(buffer,"X-stat-req-complete-time: %ld\r\n", (requestCompletion.tv_sec * 1000000 + requestCompletion.tv_usec) - (serverStartStamp.tv_sec * 1000000 + serverStartStamp.tv_usec));
+	// (void)safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
 	//TODO ADD THE OTHER STATISTICS
 	//TODO TEST
 	//TODO Clean code(print statements, thread, exits and destroys. malloc - free etc, safe functions, comments, delete additional files in dir)
 	//TODO read proj doc carefully
+	
+	safeWrite(fd,buffer,strlen(buffer), "Write Error: ");//puts the contents of index.html header/request
     /* send file in 8KB block - last block may be smaller */
 	printf("LOGGER MID 7");
-	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {
+	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {//puts the contents of index.html into buffer
 		printf("Buffer AFTER Send %s", buffer);
 		safeWrite(fd,buffer,ret, "Write Error: ");
 	}
