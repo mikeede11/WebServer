@@ -1454,3 +1454,4859 @@ ERROR: system call:bind Errno=98 exiting pid=1497
  INFO: nweb starting:8000:1581
  INFO: nweb starting:8000:1608
  INFO: nweb starting:8000:1611
+ INFO: nweb starting:8000:272
+ INFO: nweb starting:8000:328
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: nweb starting:8000:391
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: nweb starting:8000:878
+ INFO: nweb starting:8000:905
+ INFO: nweb starting:8000:932
+ INFO: nweb starting:8000:992
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /nigel.jpg HTTP/1.0****:4
+ INFO: SEND:nigel.jpg:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:4
+ INFO: nweb starting:8000:1149
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /nigel.jpg HTTP/1.0****:3
+ INFO: SEND:nigel.jpg:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: nweb starting:8000:1208
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: nweb starting:8000:1305
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: nweb starting:8000:1379
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: nweb starting:8000:1543
+ INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:1
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+
+ INFO: request:GET /index.html HTTP/1.0****:5 INFO: request:GET /index.html HTTP/1.0****:5
+
+ INFO: SEND:index.html:5 INFO: SEND:index.html:5
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+
+ INFO: nweb starting:5000:279
+ INFO: nweb starting:8000:439
+ INFO: nweb starting:8000:552
+ INFO: request:GET /index.html HTTP/1.0****:3 INFO: request:GET /index.html HTTP/1.0****:1
+
+ INFO: SEND:index.html:1 INFO: SEND:index.html:3
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+
+ INFO: nweb starting:8000:669
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:716
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:757
+ INFO: request:GET /index.html HTTP/1.0****:3 INFO: request:GET /index.html HTTP/1.0****:1
+
+ INFO: SEND:index.html:1 INFO: SEND:index.html:3
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+
+ INFO: nweb starting:8000:788
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:848
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: request:GET /index.html HTTP/1.0****:3 INFO: request:GET /index.html HTTP/1.0****:4
+
+ INFO: SEND:index.html:3
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+
+ INFO: nweb starting:8000:876
+ERROR: system call:bind Errno=98 exiting pid=876
+ INFO: nweb starting:8000:879
+ERROR: system call:bind Errno=98 exiting pid=879
+ INFO: nweb starting:8000:883
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:3
+
+ INFO: SEND:index.html:3 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: request:GET /index.html HTTP/1.0****:4 INFO: request:GET /index.html HTTP/1.0****:4
+
+ INFO: SEND:index.html:4 INFO: SEND:index.html:4
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+
+ INFO: nweb starting:8000:896
+ INFO: nweb starting:8000:917
+ INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:1
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:947
+ERROR: system call:bind Errno=98 exiting pid=947
+ INFO: nweb starting:8000:951
+ERROR: system call:bind Errno=98 exiting pid=951
+ INFO: nweb starting:8000:954
+ERROR: system call:bind Errno=98 exiting pid=954
+ INFO: nweb starting:8000:957
+ INFO: request:GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****:1
+
+ INFO: SEND:index.html:1 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1236
+ INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:1
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+
+ INFO: nweb starting:8000:1310
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1350
+ INFO: request:GET /index.html HTTP/1.0****:3 INFO: request:GET /index.html HTTP/1.0****:3
+
+ INFO: SEND:index.html:3 INFO: SEND:index.html:3
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+
+ INFO: nweb starting:8000:1400
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1431
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:1
+
+ INFO: SEND:index.html:1 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+
+ INFO: nweb starting:8000:1463
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1541
+ INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:1 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1583
+ INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:3
+
+ INFO: SEND:index.html:3 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1618
+FORBIDDEN: failed to read browser request:FORBIDDEN: failed to read browser request:
+
+ INFO: nweb starting:8000:1656
+ INFO: request:GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:1 INFO: SEND:index.html:2
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: nweb starting:8000:1704
+ INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:2
+
+ INFO: SEND:index.html:2 INFO: SEND:index.html:1
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1
+
+ INFO: request:GET /index.html HTTP/1.0****:5 INFO: request:GET /index.html HTTP/1.0****:5
+
+ INFO: SEND:index.html:5 INFO: SEND:index.html:5
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+
+ INFO: request:GET /index.html HTTP/1.0****:6 INFO: request:GET /index.html HTTP/1.0****:6
+
+ INFO: SEND:index.html:6 INFO: SEND:index.html:6
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+
+ INFO: request:GET /index.html HTTP/1.0****:7 INFO: request:GET /index.html HTTP/1.0****:9
+
+ INFO: SEND:index.html:7 INFO: SEND:index.html:9
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+
+ INFO: request:GET /index.html HTTP/1.0****:10 INFO: request:GET /index.html HTTP/1.0****:11
+
+ INFO: SEND:index.html:11 INFO: SEND:index.html:10
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11
+
+ INFO: request:GET /index.html HTTP/1.0****:12 INFO: request:GET /index.html HTTP/1.0****:13
+
+ INFO: SEND:index.html:12 INFO: SEND:index.html:13
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:12 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:13
+
+ INFO: request:GET /index.html HTTP/1.0****:14 INFO: request:GET /index.html HTTP/1.0****:14
+
+ INFO: SEND:index.html:14 INFO: SEND:index.html:14
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14
+
+ INFO: request:GET /index.html HTTP/1.0****:16 INFO: request:GET /index.html HTTP/1.0****:16
+
+ INFO: SEND:index.html:16 INFO: SEND:index.html:16
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:16 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:16
+
+ INFO: request:GET /index.html HTTP/1.0****:18 INFO: request:GET /index.html HTTP/1.0****:20 INFO: request:GET /index.html HTTP/1.0****:19 INFO: request:GET /index.html HTTP/1.0****:20
+
+
+
+ INFO: SEND:index.html:18 INFO: SEND:index.html:20 INFO: SEND:index.html:19 INFO: SEND:index.html:20
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:18 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:20 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:19 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:20
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:22 INFO: request:GET /index.html HTTP/1.0****:22 INFO: request:GET /index.html HTTP/1.0****:24 INFO: request:GET /index.html HTTP/1.0****:23
+
+
+
+ INFO: SEND:index.html:22 INFO: SEND:index.html:23 INFO: SEND:index.html:22 INFO: SEND:index.html:24
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:22 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:23 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:22
+
+
+ INFO: request:GET /index.html HTTP/1.0****:26 INFO: request:GET /index.html HTTP/1.0****:27 INFO: request:GET /index.html HTTP/1.0****:28 INFO: request:GET /index.html HTTP/1.0****:27
+
+
+
+ INFO: SEND:index.html:27 INFO: SEND:index.html:26 INFO: SEND:index.html:27 INFO: SEND:index.html:28
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:27 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:27 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:28 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:26
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:30 INFO: request:GET /index.html HTTP/1.0****:30 INFO: request:GET /index.html HTTP/1.0****:33 INFO: request:GET /index.html HTTP/1.0****:31
+
+
+
+ INFO: SEND:index.html:30 INFO: SEND:index.html:30 INFO: SEND:index.html:33 INFO: SEND:index.html:31
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:31 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:33 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:30 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:30
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:34 INFO: request:GET /index.html HTTP/1.0****:33 INFO: request:GET /index.html HTTP/1.0****:37
+ INFO: request:GET /index.html HTTP/1.0****:36
+
+
+ INFO: SEND:index.html:34 INFO: SEND:index.html:33 INFO: SEND:index.html:36 INFO: SEND:index.html:37
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:33 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:34 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:37
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:36
+
+
+ INFO: request:GET /index.html HTTP/1.0****:38 INFO: request:GET /index.html HTTP/1.0****:40 INFO: request:GET /index.html HTTP/1.0****:38 INFO: request:GET /index.html HTTP/1.0****:39
+
+
+
+ INFO: SEND:index.html:38 INFO: SEND:index.html:38 INFO: SEND:index.html:40 INFO: SEND:index.html:39
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:38 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:40 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:38 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:39
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:42 INFO: request:GET /index.html HTTP/1.0****:43 INFO: request:GET /index.html HTTP/1.0
+
+:44 INFO: request:GET /index.html HTTP/1.0****:43
+
+
+
+ INFO: SEND:index.html:44 INFO: SEND:index.html:43 INFO: SEND:index.html:42 INFO: SEND:index.html:43
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:42 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:43 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:43 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:44
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:46 INFO: request:GET /index.html HTTP/1.0****:47 INFO: request:GET /index.html HTTP/1.0****:48 INFO: request:GET /index.html HTTP/1.0****:47
+
+
+
+ INFO: SEND:index.html:47 INFO: SEND:index.html:48 INFO: SEND:index.html:47 INFO: SEND:index.html:46
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:46 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:47 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:48
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:47
+
+
+ INFO: request:GET /index.html HTTP/1.0****:51 INFO: request:GET /index.html HTTP/1.0****:52 INFO: request:GET /index.html HTTP/1.0****:52 INFO: request:GET /index.html HTTP/1.0****:49
+
+
+
+ INFO: SEND:index.html:49 INFO: SEND:index.html:51 INFO: SEND:index.html:52 INFO: SEND:index.html:52
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:49 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:51 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:52
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:52
+
+
+ INFO: request:GET /index.html HTTP/1.0****:53 INFO: request:GET /index.html HTTP/1.0****:55 INFO: request:GET /index.html HTTP/1.0****:55 INFO: request:GET /index.html HTTP/1.0****:56
+
+
+
+ INFO: SEND:index.html:55 INFO: SEND:index.html:55 INFO: SEND:index.html:53 INFO: SEND:index.html:56
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:55 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:53
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:55 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:56
+
+
+ INFO: request:GET /index.html HTTP/1.0****:58 INFO: request:GET /index.html HTTP/1.0****:60 INFO: request:GET /index.html HTTP/1.0****:58 INFO: request:GET /index.html HTTP/1.0****:60
+
+
+
+ INFO: SEND:index.html:58 INFO: SEND:index.html:58 INFO: SEND:index.html:60 INFO: SEND:index.html:60
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:58 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:58 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:60 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:60
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:62 INFO: request:GET /index.html HTTP/1.0****:63 INFO: request:GET /index.html HTTP/1.0****:63 INFO: request:GET /index.html HTTP/1.0****:64
+
+
+
+ INFO: SEND:index.html:63 INFO: SEND:index.html:63 INFO: SEND:index.html:62 INFO: SEND:index.html:64
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:62 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:64 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:63 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:63
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:66 INFO: request:GET /index.html HTTP/1.0****:66 INFO: request:GET /index.html HTTP/1.0****:67 INFO: request:GET /index.html HTTP/1.0****:69
+
+
+
+ INFO: SEND:index.html:66 INFO: SEND:index.html:66 INFO: SEND:index.html:67 INFO: SEND:index.html:69
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:66 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:66 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:67 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:69
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:69 INFO: request:GET /index.html HTTP/1.0****:72 INFO: request:GET /index.html HTTP/1.0****:70 INFO: request:GET /index.html HTTP/1.0****:71
+
+
+
+ INFO: SEND:index.html:69 INFO: SEND:index.html:72 INFO: SEND:index.html:70 INFO: SEND:index.html:71
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:69 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:72 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:70 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:71
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:75 INFO: request:GET /index.html HTTP/1.0****:76 INFO: request:GET /index.html HTTP/1.0****:74 INFO: request:GET /index.html HTTP/1.0****:73
+
+
+
+ INFO: SEND:index.html:75 INFO: SEND:index.html:76 INFO: SEND:index.html:73 INFO: SEND:index.html:74
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:75 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:73
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:74
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:76
+
+ INFO: request:GET /index.html HTTP/1.0****:79 INFO: request:GET /index.html HTTP/1.0****:78 INFO: request:GET /index.html HTTP/1.0****:78 INFO: request:GET /index.html HTTP/1.0****:80
+
+
+
+ INFO: SEND:index.html:78 INFO: SEND:index.html:78 INFO: SEND:index.html:79 INFO: SEND:index.html:80
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:80 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:78 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:79 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:78
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:81 INFO: request:GET /index.html HTTP/1.0****:85 INFO: request:GET /index.html HTTP/1.0****:84 INFO: request:GET /index.html HTTP/1.0****:82
+
+
+
+ INFO: SEND:index.html:84 INFO: SEND:index.html:85 INFO: SEND:index.html:81 INFO: SEND:index.html:82
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:85 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:84 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:82 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:81
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:86 INFO: request:GET /index.html HTTP/1.0****:87 INFO: request:GET /index.html HTTP/1.0****:85 INFO: request:GET /index.html HTTP/1.0****:89
+
+
+
+ INFO: SEND:index.html:86 INFO: SEND:index.html:89 INFO: SEND:index.html:87
+ INFO: SEND:index.html:85
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:86 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:89 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:87 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:85
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:90 INFO: request:GET /index.html HTTP/1.0****:92 INFO: request:GET /index.html HTTP/1.0****:90 INFO: request:GET /index.html HTTP/1.0****:92
+
+
+
+ INFO: SEND:index.html:92 INFO: SEND:index.html:92 INFO: SEND:index.html:90 INFO: SEND:index.html:90
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:92 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:92 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:90
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:90
+
+
+ INFO: nweb starting:8000:2025
+ INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:2 INFO: request:GET /index.html HTTP/1.0****:4 INFO: request:GET /index.html HTTP/1.0****:4
+
+
+
+ INFO: SEND:index.html:4 INFO: SEND:index.html:1 INFO: SEND:index.html:4 INFO: SEND:index.html:2
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:7 INFO: request:GET /index.html HTTP/1.0****:5 INFO: request:GET /index.html HTTP/1.0****:7 INFO: request:GET /index.html HTTP/1.0****:8
+
+
+
+ INFO: SEND:index.html:8 INFO: SEND:index.html:7 INFO: SEND:index.html:5 INFO: SEND:index.html:7
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:8 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:11 INFO: request:GET /index.html HTTP/1.0****:13 INFO: request:GET /index.html HTTP/1.0****:10 INFO: request:GET /index.html HTTP/1.0****:11
+
+
+
+ INFO: SEND:index.html:13 INFO: SEND:index.html:11 INFO: SEND:index.html:11 INFO: SEND:index.html:10
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:13 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:15 INFO: request:GET /index.html HTTP/1.0
+
+:14 INFO: request:GET /index.html HTTP/1.0****:16 INFO: request:GET /index.html HTTP/1.0****:14
+
+
+
+ INFO: SEND:index.html:15 INFO: SEND:index.html:14
+ INFO: SEND:index.html:16 INFO: SEND:index.html:14
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:15 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:16 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14
+
+
+ INFO: request:GET /index.html HTTP/1.0****:17 INFO: request:GET /index.html HTTP/1.0****:18 INFO: request:GET /index.html HTTP/1.0****:19 INFO: request:GET /index.html HTTP/1.0****:20
+
+
+
+ INFO: SEND:index.html:17 INFO: SEND:index.html:18 INFO: SEND:index.html:19 INFO: SEND:index.html:20
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:17 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:18 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:19 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:20
+
+
+
+ INFO: nweb starting:8000:2096
+ INFO: request:GET /index.html HTTP/1.0****:3 INFO: request:GET /index.html HTTP/1.0****:1 INFO: request:GET /index.html HTTP/1.0****:4 INFO: request:GET /index.html HTTP/1.0****:3
+
+
+
+ INFO: SEND:index.html:4 INFO: SEND:index.html:3 INFO: SEND:index.html:1 INFO: SEND:index.html:3
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:6 INFO: request:GET /index.html HTTP/1.0****:7 INFO: request:GET /index.html HTTP/1.0****:9 INFO: request:GET /index.html HTTP/1.0****:7
+
+
+
+ INFO: SEND:index.html:6 INFO: SEND:index.html:9 INFO: SEND:index.html:7 INFO: SEND:index.html:7
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:9 INFO: request:GET /index.html HTTP/1.0****:10 INFO: request:GET /index.html HTTP/1.0****:12 INFO: request:GET /index.html HTTP/1.0****:11
+
+
+
+ INFO: SEND:index.html:9 INFO: SEND:index.html:11 INFO: SEND:index.html:10 INFO: SEND:index.html:12
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:12
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:15 INFO: request:GET /index.html HTTP/1.0****:14 INFO: request:GET /index.html HTTP/1.0****:17 INFO: request:GET /index.html HTTP/1.0****:16
+
+
+
+ INFO: SEND:index.html:17 INFO: SEND:index.html:14 INFO: SEND:index.html:16 INFO: SEND:index.html:15
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:16 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:17 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:15
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:17 INFO: request:GET /index.html HTTP/1.0****:19 INFO: request:GET /index.html HTTP/1.0****:18 INFO: request:GET /index.html HTTP/1.0****:21
+
+
+
+ INFO: SEND:index.html:21 INFO: SEND:index.html:19 INFO: SEND:index.html:17 INFO: SEND:index.html:18
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:19 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:17 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:21 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:18
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:22
+ INFO: SEND:index.html:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:22
+ INFO: request:GET /index.html HTTP/1.0****:23
+ INFO: SEND:index.html:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:23
+ INFO: request:GET /index.html HTTP/1.0****:24
+ INFO: SEND:index.html:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:24
+ INFO: request:GET /index.html HTTP/1.0****:25
+ INFO: SEND:index.html:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:25
+ INFO: request:GET /index.html HTTP/1.0****:26
+ INFO: SEND:index.html:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:26
+ INFO: request:GET /index.html HTTP/1.0****:27
+ INFO: SEND:index.html:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:27
+ INFO: request:GET /index.html HTTP/1.0****:28
+ INFO: SEND:index.html:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:28
+ INFO: request:GET /index.html HTTP/1.0****:29
+ INFO: SEND:index.html:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:29
+ INFO: request:GET /index.html HTTP/1.0****:30
+ INFO: SEND:index.html:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:30
+ INFO: request:GET /index.html HTTP/1.0****:30
+ INFO: SEND:index.html:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:30
+ INFO: request:GET /index.html HTTP/1.0****:32
+ INFO: SEND:index.html:32
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:32
+ INFO: request:GET /index.html HTTP/1.0****:33
+ INFO: SEND:index.html:33
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:33
+ INFO: request:GET /index.html HTTP/1.0****:34
+ INFO: SEND:index.html:34
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:34
+ INFO: request:GET /index.html HTTP/1.0****:35
+ INFO: SEND:index.html:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:35
+ INFO: request:GET /index.html HTTP/1.0****:35
+ INFO: SEND:index.html:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:35
+ INFO: request:GET /index.html HTTP/1.0****:37
+ INFO: SEND:index.html:37
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:37
+ INFO: request:GET /index.html HTTP/1.0****:38
+ INFO: SEND:index.html:38
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:38
+ INFO: request:GET /index.html HTTP/1.0****:39
+ INFO: SEND:index.html:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:39
+ INFO: request:GET /index.html HTTP/1.0****:39
+ INFO: SEND:index.html:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:39
+ INFO: request:GET /index.html HTTP/1.0****:41
+ INFO: SEND:index.html:41
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:41
+ INFO: request:GET /index.html HTTP/1.0****:42
+ INFO: SEND:index.html:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:42
+ INFO: request:GET /index.html HTTP/1.0****:43
+ INFO: SEND:index.html:43
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:43
+ INFO: request:GET /index.html HTTP/1.0****:44
+ INFO: SEND:index.html:44
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:44
+ INFO: request:GET /index.html HTTP/1.0****:44
+ INFO: SEND:index.html:44
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:44
+ INFO: request:GET /index.html HTTP/1.0****:46
+ INFO: SEND:index.html:46
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:46
+ INFO: request:GET /index.html HTTP/1.0****:47
+ INFO: SEND:index.html:47
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:47
+ INFO: request:GET /index.html HTTP/1.0****:48 INFO: request:GET /index.html HTTP/1.0****:48 INFO: request:GET /index.html HTTP/1.0****:51 INFO: request:GET /index.html HTTP/1.0****:49
+
+
+
+ INFO: SEND:index.html:48 INFO: SEND:index.html:51 INFO: SEND:index.html:48 INFO: SEND:index.html:49
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:48 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:48 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:51 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:49
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:51 INFO: request:GET /index.html HTTP/1.0****:54 INFO: request:GET /index.html HTTP/1.0****:52 INFO: request:GET /index.html HTTP/1.0****:53
+
+
+
+ INFO: SEND:index.html:52 INFO: SEND:index.html:51 INFO: SEND:index.html:54 INFO: SEND:index.html:53
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:53 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:52 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:51 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:54
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:57 INFO: request:GET /index.html HTTP/1.0****:58 INFO: request:GET /index.html HTTP/1.0****:56 INFO: request:GET /index.html HTTP/1.0****:55
+
+
+
+ INFO: SEND:index.html:57 INFO: SEND:index.html:56 INFO: SEND:index.html:55 INFO: SEND:index.html:58
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:57 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:56
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:55
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:58
+
+ INFO: request:GET /index.html HTTP/1.0****:61 INFO: request:GET /index.html HTTP/1.0****:62 INFO: request:GET /index.html HTTP/1.0****:61 INFO: request:GET /index.html HTTP/1.0****:60
+
+
+
+ INFO: SEND:index.html:61 INFO: SEND:index.html:62 INFO: SEND:index.html:60 INFO: SEND:index.html:61
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:61 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:61
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:60 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:62
+
+
+ INFO: request:GET /index.html HTTP/1.0****:64 INFO: request:GET /index.html HTTP/1.0****:64 INFO: request:GET /index.html HTTP/1.0****:66 INFO: request:GET /index.html HTTP/1.0****:67
+
+
+
+ INFO: SEND:index.html:64 INFO: SEND:index.html:64 INFO: SEND:index.html:66 INFO: SEND:index.html:67
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:64 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:64 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:66 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:67
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:68 INFO: request:GET /index.html HTTP/1.0****:68
+
+ INFO: request:GET /index.html HTTP/1.0****:69 INFO: request:GET /index.html HTTP/1.0****:70
+
+ INFO: SEND:index.html:69 INFO: SEND:index.html:68 INFO: SEND:index.html:68 INFO: SEND:index.html:70
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:69 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:68 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:70 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:68
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:71 INFO: request:GET /index.html HTTP/1.0****:73 INFO: request:GET /index.html HTTP/1.0****:74 INFO: request:GET /index.html HTTP/1.0****:72
+
+
+
+ INFO: SEND:index.html:71 INFO: SEND:index.html:73 INFO: SEND:index.html:74 INFO: SEND:index.html:72
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:72 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:73 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:74 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:71
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:76 INFO: request:GET /index.html HTTP/1.0****:78 INFO: request:GET /index.html HTTP/1.0****:75 INFO: request:GET /index.html HTTP/1.0****:77
+
+
+
+ INFO: SEND:index.html:75 INFO: SEND:index.html:78 INFO: SEND:index.html:76 INFO: SEND:index.html:77
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:78 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:75 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:77
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:76
+
+ INFO: request:GET /index.html HTTP/1.0****:80 INFO: request:GET /index.html HTTP/1.0****:82 INFO: request:GET /index.html HTTP/1.0****:82 INFO: request:GET /index.html HTTP/1.0****:80
+
+
+
+ INFO: SEND:index.html:80 INFO: SEND:index.html:82 INFO: SEND:index.html:82 INFO: SEND:index.html:80
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:80 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:82 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:82 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:80
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:85 INFO: request:GET /index.html HTTP/1.0****:84 INFO: request:GET /index.html HTTP/1.0****:85 INFO: request:GET /index.html HTTP/1.0****:86
+
+
+
+ INFO: SEND:index.html:84 INFO: SEND:index.html:85 INFO: SEND:index.html:86 INFO: SEND:index.html:85
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:85 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:84 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:85 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:86
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:88 INFO: request:GET /index.html HTTP/1.0****:90 INFO: request:GET /index.html HTTP/1.0****:87 INFO: request:GET /index.html HTTP/1.0****:90
+
+
+
+ INFO: SEND:index.html:87 INFO: SEND:index.html:88 INFO: SEND:index.html:90 INFO: SEND:index.html:90
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:88 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:87 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:90 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:90
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:91 INFO: request:GET /index.html HTTP/1.0****:94 INFO: request:GET /index.html HTTP/1.0****:93 INFO: request:GET /index.html HTTP/1.0****:93
+
+
+
+ INFO: SEND:index.html:94 INFO: SEND:index.html:91 INFO: SEND:index.html:93 INFO: SEND:index.html:93
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:91 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:94 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:93 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:93
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:95 INFO: request:GET /index.html HTTP/1.0****:97 INFO: request:GET /index.html HTTP/1.0****:98 INFO: request:GET /index.html HTTP/1.0****:97
+
+
+
+ INFO: SEND:index.html:95 INFO: SEND:index.html:97 INFO: SEND:index.html:98 INFO: SEND:index.html:97
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:97 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:95 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:98 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:97
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:99 INFO: request:GET /index.html HTTP/1.0****:100 INFO: request:GET /index.html HTTP/1.0****:102 INFO: request:GET /index.html HTTP/1.0****:102
+
+
+
+ INFO: SEND:index.html:102 INFO: SEND:index.html:102 INFO: SEND:index.html:100 INFO: SEND:index.html:99
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:99 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:102 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:102 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:100
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:104 INFO: request:GET /index.html HTTP/1.0****:105 INFO: request:GET /index.html HTTP/1.0****:105 INFO: request:GET /index.html HTTP/1.0****:106
+
+
+
+ INFO: SEND:index.html:104 INFO: SEND:index.html:105 INFO: SEND:index.html:106 INFO: SEND:index.html:105
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:104 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:105 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:106 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:105
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:110 INFO: request:GET /index.html HTTP/1.0****:109 INFO: request:GET /index.html HTTP/1.0****:108 INFO: request:GET /index.html HTTP/1.0****:108
+
+
+
+ INFO: SEND:index.html:110 INFO: SEND:index.html:109 INFO: SEND:index.html:108 INFO: SEND:index.html:108
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:110 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:109 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:108
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:108
+
+
+ INFO: request:GET /index.html HTTP/1.0****:112 INFO: request:GET /index.html HTTP/1.0****:112 INFO: request:GET /index.html HTTP/1.0****:114 INFO: request:GET /index.html HTTP/1.0****:114
+
+
+
+ INFO: SEND:index.html:114 INFO: SEND:index.html:112 INFO: SEND:index.html:112 INFO: SEND:index.html:114
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:114 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:112 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:114 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:112
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:116 INFO: request:GET /index.html HTTP/1.0****:117 INFO: request:GET /index.html HTTP/1.0****:117 INFO: request:GET /index.html HTTP/1.0****:118
+
+
+
+ INFO: SEND:index.html:118 INFO: SEND:index.html:116 INFO: SEND:index.html:117 INFO: SEND:index.html:117
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:117 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:116 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:118 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:117
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:121 INFO: request:GET /index.html HTTP/1.0****:122 INFO: request:GET /index.html HTTP/1.0****:120 INFO: request:GET /index.html HTTP/1.0****:119
+
+
+
+ INFO: SEND:index.html:121 INFO: SEND:index.html:122 INFO: SEND:index.html:120 INFO: SEND:index.html:119
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:121 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:122 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:120 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:119
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:124 INFO: request:GET /index.html HTTP/1.0****:126 INFO: request:GET /index.html HTTP/1.0****:124 INFO: request:GET /index.html HTTP/1.0****:126
+
+
+
+ INFO: SEND:index.html:124 INFO: SEND:index.html:126 INFO: SEND:index.html:126 INFO: SEND:index.html:124
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:124 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:126 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:126 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:124
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:128 INFO: request:GET /index.html HTTP/1.0****:128 INFO: request:GET /index.html HTTP/1.0****:129 INFO: request:GET /index.html HTTP/1.0****:130
+
+
+
+ INFO: SEND:index.html:128 INFO: SEND:index.html:129 INFO: SEND:index.html:130
+ INFO: SEND:index.html:128
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:129 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:128
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:130
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:128
+
+ INFO: request:GET /index.html HTTP/1.0****:134 INFO: request:GET /index.html HTTP/1.0****:135 INFO: request:GET /index.html HTTP/1.0****:132 INFO: request:GET /index.html HTTP/1.0****:133
+
+
+
+ INFO: SEND:index.html:133 INFO: SEND:index.html:132 INFO: SEND:index.html:134 INFO: SEND:index.html:135
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:135 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:134
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:132
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:133
+
+ INFO: request:GET /index.html HTTP/1.0****:137 INFO: request:GET /index.html HTTP/1.0****:139 INFO: request:GET /index.html HTTP/1.0****:135 INFO: request:GET /index.html HTTP/1.0****:137
+
+
+
+ INFO: SEND:index.html:135 INFO: SEND:index.html:137 INFO: SEND:index.html:137 INFO: SEND:index.html:139
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:139 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:137 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:135 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:137
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:141 INFO: request:GET /index.html HTTP/1.0****:141 INFO: request:GET /index.html HTTP/1.0****:144 INFO: request:GET /index.html HTTP/1.0****:143 INFO: request:GET /index.html HTTP/1.0****:143 INFO: request:GET /index.html HTTP/1.0****:141
+
+
+
+
+
+ INFO: SEND:index.html:141 INFO: SEND:index.html:141 INFO: SEND:index.html:141 INFO: SEND:index.html:144 INFO: SEND:index.html:143 INFO: SEND:index.html:143
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:141 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:144 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:141 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:141 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:143 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:143
+
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:148 INFO: request:GET /index.html HTTP/1.0****:148 INFO: request:GET /index.html HTTP/1.0****:148 INFO: request:GET /index.html HTTP/1.0****:150 INFO: request:GET /index.html HTTP/1.0****:149 INFO: request:GET /index.html HTTP/1.0****:148
+
+
+
+
+
+ INFO: SEND:index.html:148 INFO: SEND:index.html:148 INFO: SEND:index.html:148 INFO: SEND:index.html:150
+ INFO: SEND:index.html:148 INFO: SEND:index.html:149
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:148 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:148 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:148 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:148 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:149
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:150
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:155 INFO: request:GET /index.html HTTP/1.0****:155 INFO: request:GET /index.html HTTP/1.0****:155 INFO: request:GET /index.html HTTP/1.0****:155 INFO: request:GET /index.html HTTP/1.0****:156
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:157
+ INFO: SEND:index.html:155 INFO: SEND:index.html:155 INFO: SEND:index.html:156 INFO: SEND:index.html:155 INFO: SEND:index.html:155 INFO: SEND:index.html:157
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:155 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:155 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:157 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:156 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:155 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:155
+
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:161 INFO: request:GET /index.html HTTP/1.0****:161 INFO: request:GET /index.html HTTP/1.0****:161 INFO: request:GET /index.html HTTP/1.0****:161 INFO: request:GET /index.html HTTP/1.0****:162
+ INFO: request:GET /index.html HTTP/1.0****:162
+
+
+
+
+ INFO: SEND:index.html:161 INFO: SEND:index.html:161 INFO: SEND:index.html:162 INFO: SEND:index.html:161 INFO: SEND:index.html:161 INFO: SEND:index.html:162
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:161 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:162 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:161 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:161 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:161
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:162
+
+
+ INFO: request:GET /index.html HTTP/1.0****:167 INFO: request:GET /index.html HTTP/1.0****:167 INFO: request:GET /index.html HTTP/1.0****:167 INFO: request:GET /index.html HTTP/1.0****:167 INFO: request:GET /index.html HTTP/1.0****:167
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:168
+ INFO: SEND:index.html:167 INFO: SEND:index.html:167 INFO: SEND:index.html:167 INFO: SEND:index.html:168 INFO: SEND:index.html:167 INFO: SEND:index.html:167
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:167 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:167 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:167 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:168 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:167 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:167
+
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:173 INFO: request:GET /index.html HTTP/1.0****:173 INFO: request:GET /index.html HTTP/1.0****:173 INFO: request:GET /index.html HTTP/1.0****:174 INFO: request:GET /index.html HTTP/1.0****:173 INFO: request:GET /index.html HTTP/1.0****:173
+
+
+
+
+
+ INFO: SEND:index.html:173 INFO: SEND:index.html:173 INFO: SEND:index.html:173 INFO: SEND:index.html:174 INFO: SEND:index.html:173 INFO: SEND:index.html:173
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:173 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:173 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:174 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:173 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:173
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:173
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:179 INFO: request:GET /index.html HTTP/1.0****:179 INFO: request:GET /index.html HTTP/1.0****:179 INFO: request:GET /index.html HTTP/1.0****:181 INFO: request:GET /index.html HTTP/1.0****:179 INFO: request:GET /index.html HTTP/1.0****:179
+
+
+
+
+
+ INFO: SEND:index.html:179 INFO: SEND:index.html:179 INFO: SEND:index.html:181
+ INFO: SEND:index.html:179 INFO: SEND:index.html:179
+
+
+ INFO: SEND:index.html:179
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:179 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:179 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:181 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:179
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:179
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:179
+
+ INFO: request:GET /index.html HTTP/1.0****:185 INFO: request:GET /index.html HTTP/1.0****:186 INFO: request:GET /index.html HTTP/1.0****:185 INFO: request:GET /index.html HTTP/1.0****:185 INFO: request:GET /index.html HTTP/1.0****:185
+
+ INFO: request:GET /index.html HTTP/1.0****:185
+
+
+
+ INFO: SEND:index.html:186 INFO: SEND:index.html:185 INFO: SEND:index.html:185 INFO: SEND:index.html:185 INFO: SEND:index.html:185
+
+
+
+
+ INFO: SEND:index.html:185
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:186 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:185 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:185 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:185
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:185
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:185
+ INFO: request:GET /index.html HTTP/1.0****:191 INFO: request:GET /index.html HTTP/1.0****:191 INFO: request:GET /index.html HTTP/1.0****:191 INFO: request:GET /index.html HTTP/1.0****:192 INFO: request:GET /index.html HTTP/1.0****:191 INFO: request:GET /index.html HTTP/1.0****:193
+
+
+
+
+
+ INFO: SEND:index.html:191 INFO: SEND:index.html:192 INFO: SEND:index.html:191 INFO: SEND:index.html:191
+
+ INFO: SEND:index.html:191
+
+
+ INFO: SEND:index.html:193
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:191 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:191 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:191 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:192 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:191
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:193
+ INFO: request:GET /index.html HTTP/1.0****:197 INFO: request:GET /index.html HTTP/1.0****:197 INFO: request:GET /index.html HTTP/1.0****:199 INFO: request:GET /index.html HTTP/1.0****:197 INFO: request:GET /index.html HTTP/1.0****:197 INFO: request:GET /index.html HTTP/1.0****:197
+
+
+
+
+
+ INFO: SEND:index.html:197 INFO: SEND:index.html:197 INFO: SEND:index.html:199 INFO: SEND:index.html:197 INFO: SEND:index.html:197 INFO: SEND:index.html:197
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:197 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:199 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:197 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:197 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:197
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:197
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:203 INFO: request:GET /index.html HTTP/1.0****:203 INFO: request:GET /index.html HTTP/1.0****:203 INFO: request:GET /index.html HTTP/1.0****:204 INFO: request:GET /index.html HTTP/1.0****:204
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:203
+
+ INFO: SEND:index.html:203 INFO: SEND:index.html:203 INFO: SEND:index.html:204 INFO: SEND:index.html:203 INFO: SEND:index.html:204 INFO: SEND:index.html:203
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:203 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:203 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:204 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:203 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:203
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:204
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:209 INFO: request:GET /index.html HTTP/1.0****:209 INFO: request:GET /index.html HTTP/1.0****:209 INFO: request:GET /index.html HTTP/1.0****:209 INFO: request:GET /index.html HTTP/1.0****:210
+ INFO: request:GET /index.html HTTP/1.0****:209
+
+
+
+
+ INFO: SEND:index.html:209 INFO: SEND:index.html:209 INFO: SEND:index.html:209 INFO: SEND:index.html:209 INFO: SEND:index.html:209 INFO: SEND:index.html:210
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:209 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:210 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:209 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:209 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:209 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:209
+
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0
+
+:215 INFO: request:GET /index.html HTTP/1.0****:216 INFO: request:GET /index.html HTTP/1.0****:215 INFO: request:GET /index.html HTTP/1.0****:215 INFO: request:GET /index.html HTTP/1.0****:215
+ INFO: request:GET /index.html HTTP/1.0****:215
+
+
+
+
+ INFO: SEND:index.html:215 INFO: SEND:index.html:215
+
+ INFO: SEND:index.html:215 INFO: SEND:index.html:215 INFO: SEND:index.html:216 INFO: SEND:index.html:215
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:215 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:215
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:215 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:215 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:216
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:215
+ INFO: request:GET /index.html HTTP/1.0****:221 INFO: request:GET /index.html HTTP/1.0****:221 INFO: request:GET /index.html HTTP/1.0****:221 INFO: request:GET /index.html HTTP/1.0
+
+:221 INFO: request:GET /index.html HTTP/1.0****:221
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:223
+ INFO: SEND:index.html:221 INFO: SEND:index.html:221 INFO: SEND:index.html:223 INFO: SEND:index.html:221 INFO: SEND:index.html:221 INFO: SEND:index.html:221
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:221 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:223 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:221 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:221
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:221 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:221
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:227 INFO: request:GET /index.html HTTP/1.0****:227 INFO: request:GET /index.html HTTP/1.0****:227 INFO: request:GET /index.html HTTP/1.0****:227 INFO: request:GET /index.html HTTP/1.0****:227
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:228
+ INFO: SEND:index.html:227 INFO: SEND:index.html:227 INFO: SEND:index.html:228 INFO: SEND:index.html:227 INFO: SEND:index.html:227 INFO: SEND:index.html:227
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:227 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:228 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:227 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:227 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:227
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:227
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:233 INFO: request:GET /index.html HTTP/1.0****:233 INFO: request:GET /index.html HTTP/1.0****:233 INFO: request:GET /index.html HTTP/1.0****:233 INFO: request:GET /index.html HTTP/1.0****:233 INFO: request:GET /index.html HTTP/1.0****:235
+
+
+
+
+
+ INFO: SEND:index.html:233 INFO: SEND:index.html:233 INFO: SEND:index.html:233 INFO: SEND:index.html:233 INFO: SEND:index.html:233 INFO: SEND:index.html:235
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:233 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:233 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:233 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:235
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:233 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:233
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:242 INFO: request:GET /index.html HTTP/1.0****:239 INFO: request:GET /index.html HTTP/1.0****:239 INFO: request:GET /index.html HTTP/1.0****:239 INFO: request:GET /index.html HTTP/1.0****:239 INFO: request:GET /index.html HTTP/1.0****:239
+
+
+
+
+
+ INFO: SEND:index.html:239 INFO: SEND:index.html:239 INFO: SEND:index.html:239 INFO: SEND:index.html:239 INFO: SEND:index.html:239 INFO: SEND:index.html:242
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:239 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:239 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:242 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:239 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:239 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:239
+
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:245 INFO: request:GET /index.html HTTP/1.0****:246 INFO: request:GET /index.html HTTP/1.0****:245 INFO: request:GET /index.html HTTP/1.0****:245 INFO: request:GET /index.html HTTP/1.0
+
+:245 INFO: request:GET /index.html HTTP/1.0****:245
+
+
+
+
+
+ INFO: SEND:index.html:246 INFO: SEND:index.html:245 INFO: SEND:index.html:245 INFO: SEND:index.html:245 INFO: SEND:index.html:245 INFO: SEND:index.html:245
+
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:246 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:245
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:245 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:245 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:245
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:245
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:251 INFO: request:GET /index.html HTTP/1.0****:251 INFO: request:GET /index.html HTTP/1.0****:251 INFO: request:GET /index.html HTTP/1.0****:251
+
+
+
+ INFO: SEND:index.html:251 INFO: SEND:index.html:251 INFO: SEND:index.html:251 INFO: SEND:index.html:251
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:251 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:251 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:251 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:251
+
+
+
+ INFO: nweb starting:8000:2140
+ERROR: system call:bind Errno=98 exiting pid=2140
+ INFO: nweb starting:8000:2147
+ERROR: system call:bind Errno=98 exiting pid=2147
+ INFO: nweb starting:8000:2154
+ERROR: system call:bind Errno=98 exiting pid=2154
+ INFO: nweb starting:8000:2162
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: request:GET /index.html HTTP/1.0****:8
+ INFO: SEND:index.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: request:GET /index.html HTTP/1.0****:12
+ INFO: SEND:index.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /index.html HTTP/1.0****:13
+ INFO: SEND:index.html:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:13
+ INFO: request:GET /index.html HTTP/1.0****:14
+ INFO: SEND:index.html:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:14
+ INFO: request:GET /index.html HTTP/1.0****:15
+ INFO: SEND:index.html:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:15
+ INFO: request:GET /index.html HTTP/1.0****:16
+ INFO: SEND:index.html:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:16
+ INFO: request:GET /index.html HTTP/1.0****:17
+ INFO: SEND:index.html:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:17
+ INFO: request:GET /index.html HTTP/1.0****:18
+ INFO: SEND:index.html:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:18
+ INFO: request:GET /index.html HTTP/1.0****:19
+ INFO: SEND:index.html:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:19
+ INFO: request:GET /index.html HTTP/1.0****:20
+ INFO: SEND:index.html:20
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:20
+ INFO: request:GET /index.html HTTP/1.0****:21
+ INFO: SEND:index.html:21
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:21
+ INFO: request:GET /index.html HTTP/1.0****:22
+ INFO: SEND:index.html:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:22
+ INFO: request:GET /index.html HTTP/1.0****:23
+ INFO: SEND:index.html:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:23
+ INFO: request:GET /index.html HTTP/1.0****:24
+ INFO: SEND:index.html:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:24
+ INFO: request:GET /index.html HTTP/1.0****:25
+ INFO: SEND:index.html:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:25
+ INFO: request:GET /index.html HTTP/1.0****:26
+ INFO: SEND:index.html:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:26
+ INFO: request:GET /index.html HTTP/1.0****:27
+ INFO: SEND:index.html:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:27
+ INFO: request:GET /index.html HTTP/1.0****:28 INFO: request:GET /index.html HTTP/1.0****:29 INFO: request:GET /index.html HTTP/1.0****:29 INFO: request:GET /index.html HTTP/1.0****:32 INFO: request:GET /index.html HTTP/1.0****:30
+
+
+
+
+ INFO: SEND:index.html:29 INFO: SEND:index.html:29 INFO: SEND:index.html:32 INFO: SEND:index.html:28 INFO: SEND:index.html:30
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:29 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:29 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:32 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:28 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:30
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:33 INFO: request:GET /index.html HTTP/1.0****:33 INFO: request:GET /index.html HTTP/1.0****:34 INFO: request:GET /index.html HTTP/1.0****:36 INFO: request:GET /index.html HTTP/1.0****:35
+
+
+
+
+ INFO: SEND:index.html:33 INFO: SEND:index.html:35 INFO: SEND:index.html:34 INFO: SEND:index.html:33 INFO: SEND:index.html:36
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:34 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:33 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:35 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:33 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:36
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:39 INFO: request:GET /index.html HTTP/1.0****:39 INFO: request:GET /index.html HTTP/1.0****:41 INFO: request:GET /index.html HTTP/1.0****:37 INFO: request:GET /index.html HTTP/1.0****:42
+
+
+
+
+ INFO: SEND:index.html:39 INFO: SEND:index.html:39 INFO: SEND:index.html:41 INFO: SEND:index.html:42 INFO: SEND:index.html:37
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:39 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:39 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:41 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:37
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:43 INFO: request:GET /index.html HTTP/1.0****:43 INFO: request:GET /index.html HTTP/1.0****:47 INFO: request:GET /index.html HTTP/1.0****:46
+ INFO: request:GET /index.html HTTP/1.0****:44
+
+
+
+ INFO: SEND:index.html:43 INFO: SEND:index.html:43 INFO: SEND:index.html:47
+
+ INFO: SEND:index.html:44 INFO: SEND:index.html:46
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:43 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:47 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:43
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:44 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:46
+
+ INFO: request:GET /index.html HTTP/1.0****:49 INFO: request:GET /index.html HTTP/1.0****:48 INFO: request:GET /index.html HTTP/1.0****:51 INFO: request:GET /index.html HTTP/1.0****:52 INFO: request:GET /index.html HTTP/1.0****:49
+
+
+
+
+ INFO: SEND:index.html:49 INFO: SEND:index.html:49 INFO: SEND:index.html:52 INFO: SEND:index.html:48 INFO: SEND:index.html:51
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:49 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:49 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:52 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:51 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:48
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:53 INFO: request:GET /index.html HTTP/1.0****:54 INFO: request:GET /index.html HTTP/1.0****:54 INFO: request:GET /index.html HTTP/1.0****:56 INFO: request:GET /index.html HTTP/1.0****:56
+
+
+
+
+ INFO: SEND:index.html:56 INFO: SEND:index.html:54 INFO: SEND:index.html:53 INFO: SEND:index.html:56 INFO: SEND:index.html:54
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:54 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:53 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:56 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:56 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:54
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:59 INFO: request:GET /index.html HTTP/1.0****:58 INFO: request:GET /index.html HTTP/1.0****:60 INFO: request:GET /index.html HTTP/1.0****:58 INFO: request:GET /index.html HTTP/1.0****:61
+
+
+
+
+ INFO: SEND:index.html:60 INFO: SEND:index.html:59 INFO: SEND:index.html:58 INFO: SEND:index.html:58
+
+ INFO: SEND:index.html:61
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:60 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:59 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:58 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:58 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:61
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:63 INFO: request:GET /index.html HTTP/1.0****:67 INFO: request:GET /index.html HTTP/1.0****:63 INFO: request:GET /index.html HTTP/1.0****:65 INFO: request:GET /index.html HTTP/1.0****:65
+
+
+
+
+ INFO: SEND:index.html:67 INFO: SEND:index.html:63 INFO: SEND:index.html:65 INFO: SEND:index.html:63 INFO: SEND:index.html:65
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:67 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:63 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:65 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:63
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:65
+
+
+ INFO: request:GET /index.html HTTP/1.0****:70 INFO: request:GET /index.html HTTP/1.0****:67 INFO: request:GET /index.html HTTP/1.0****:69 INFO: request:GET /index.html HTTP/1.0****:68 INFO: request:GET /index.html HTTP/1.0****:71
+
+
+
+
+ INFO: SEND:index.html:70 INFO: SEND:index.html:69 INFO: SEND:index.html:67 INFO: SEND:index.html:68 INFO: SEND:index.html:71
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:70 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:69 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:67
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:71 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:68
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:72 INFO: request:GET /index.html HTTP/1.0****:76 INFO: request:GET /index.html HTTP/1.0****:74
+ INFO: request:GET /index.html HTTP/1.0****:77 INFO: request:GET /index.html HTTP/1.0****:73
+
+
+
+ INFO: SEND:index.html:73 INFO: SEND:index.html:74 INFO: SEND:index.html:72 INFO: SEND:index.html:76 INFO: SEND:index.html:77
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:73 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:74
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:77 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:76 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:72
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:77 INFO: request:GET /index.html HTTP/1.0****:78 INFO: request:GET /index.html HTTP/1.0****:80 INFO: request:GET /index.html HTTP/1.0****:80 INFO: request:GET /index.html HTTP/1.0****:81
+
+
+
+
+ INFO: SEND:index.html:80 INFO: SEND:index.html:80 INFO: SEND:index.html:78 INFO: SEND:index.html:77 INFO: SEND:index.html:81
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:80 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:80 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:78 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:77 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:81
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:83 INFO: request:GET /index.html HTTP/1.0****:83 INFO: request:GET /index.html HTTP/1.0****:85 INFO: request:GET /index.html HTTP/1.0****:87
+ INFO: request:GET /index.html HTTP/1.0****:84
+
+
+
+ INFO: SEND:index.html:85 INFO: SEND:index.html:83 INFO: SEND:index.html:83 INFO: SEND:index.html:87 INFO: SEND:index.html:84
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:85 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:87 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:83 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:83
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:84
+
+
+ INFO: request:GET /index.html HTTP/1.0****:88 INFO: request:GET /index.html HTTP/1.0****:89 INFO: request:GET /index.html HTTP/1.0****:90 INFO: request:GET /index.html HTTP/1.0****:89 INFO: request:GET /index.html HTTP/1.0****:92
+
+
+
+
+ INFO: SEND:index.html:88 INFO: SEND:index.html:90 INFO: SEND:index.html:92 INFO: SEND:index.html:89 INFO: SEND:index.html:89
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:92 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:88 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:90 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:89 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:89
+
+
+
+
+ INFO: request:GET /index.html HTTP/1.0****:93 INFO: request:GET /index.html HTTP/1.0****:93 INFO: request:GET /index.html HTTP/1.0****:95 INFO: request:GET /index.html HTTP/1.0****:96 INFO: request:GET /index.html HTTP/1.0****:95
+
+
+
+
+ INFO: SEND:index.html:93 INFO: SEND:index.html:95 INFO: SEND:index.html:93 INFO: SEND:index.html:96 INFO: SEND:index.html:95
+
+
+
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:93 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:95 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:96 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:93 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:95
+
+
+
+
+ INFO: nweb starting:8000:2221
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: request:GET /index.html HTTP/1.0****:8
+ INFO: SEND:index.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:10
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: request:GET /index.html HTTP/1.0****:12
+ INFO: SEND:index.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /index.html HTTP/1.0****:13
+ INFO: SEND:index.html:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:13
+ INFO: nweb starting:8000:2301
+ INFO: request:GET /index.html HTTP/1.0****:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 248
+Connection: close
+Content-Type: text/html
+
+:1

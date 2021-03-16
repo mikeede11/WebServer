@@ -9,14 +9,14 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/server",
-            "args": ["5000", "./", "5"],
+            "args": ["5000", "./", "2", "4"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "setupCommands": [./
+            "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
@@ -35,7 +35,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/client",
-            "args": ["localhost", "5000","/index.html"],
+            "args": ["localhost", "5000", "3", "CONCUR", "/index.html"],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
