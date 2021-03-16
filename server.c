@@ -296,7 +296,9 @@ int main(int argc, char **argv)
 		thread_pool_size = 5;//get_nprocs();
 	}
 	printf("LOOK THIS THE THE THREADPOOL SIZE: %d\n", thread_pool_size);
-	bufferSize = atoi(argv[4]);
+	if((bufferSize = atoi(argv[4])) == 0){
+		bufferSize = 10;//default if none specified.
+	}
 	requests = malloc(sizeof(requests )* bufferSize);//test
 	// if(fork() != 0)
 	// 	return 0;  //parent returns OK to shell - so parent is gone? yes
