@@ -12,6 +12,7 @@
 #include <arpa/inet.h>
 #include <pthread.h>
 #include <sys/sysinfo.h> // for default num of threads to use
+#include <sys/time.h>
 #define VERSION 23
 #define BUFSIZE 8096
 #define ERROR      42
@@ -45,16 +46,27 @@ struct {
 	{"html","text/html" },
 	{0,0} };
 
-struct request
-{
+typedef struct RequestData{
+	int clientSocket;
+	int xStatReqArrivalCount;//add in main - totalRequestsArrived
+	suseconds_t xStatReqArrivalTime;//add in main after calc. make sure passby val (use global startStamp)
+	int xStatReqDispatchCount;//add this into an individual struct when you take off requests[]
+	suseconds_t xStatReqDispatchTime;//add and calculate in thread once you take job (use global startStamp)
+	//int xStatReqCompleteCount//do we count a disregarded/rejected request as one that has arrived? assume not.
+	//we define completed as the point after the file has been read
+	// and just before the worker thread starts writing the response on the socket.
+	//nvrm maintain global var and pass that in at this moment in web
+	//xStatReqCompleteTime// You can  just calculate this also at that point
+	int xStatReqDispatchesThatCameB4Req;//requestsDispatched + size of requests[] or assoc. arrays (sll done at time req is received)
+	//xStateReqAge;//xStatReqDispatchCount - xStatReqDispatchesThatCameB4Req
 	char buffer[BUFSIZE+1]; // buffer string
 	int fd;			// file descriptor
 	int fileType;	// e.g. HTML_FILE
 	int ret;		// no idea
-};
 
+}RequestData;
 void safeWrite(int fd, void* buf, size_t cnt, char* msg);
-void web(struct request request1, int index, int hitArg);
+void web(RequestData req, int hitArg);
 
 void logger(int type, char *s1, char *s2, int socket_fd)
 {
@@ -93,41 +105,31 @@ void safeWrite(int fd, void* buf, size_t cnt, char* msg){
 }
 pthread_mutex_t mutexQueue;
 pthread_cond_t cond_varQueue;
-//pthread_mutex_init(&mutexQueue, NULL);
-//pthread_cond_init(&cond_varQueue, NULL);
-int* requests;
-int currentReqCount = 0;
+RequestData* requests;
+int currentReqCount;
+int totalRequestsArrived;
+int requestsDispatched;
+int xStatReqCompleteCount;
 int hit;
+struct timeval serverStartStamp;
 
 int schedalg;
 
-// struct request html_requests[bufferSize];
-struct request* html_requests;
-int currentHtmlCount = 0;
 
-// struct request image_requests[bufferSize];
-struct request* image_requests;
-int currentImageCount = 0;
-
-// struct request all_requests[bufferSize];
-struct request* all_requests;
-int currentAllCount = 0;
-
-
-int chooseHTML(struct request* request1) {
+int chooseHTML(RequestData* request) {
 	int i;
-	for (i = 0; i < currentAllCount; i++) {
-		if (request1[i].fileType == HTML_FILE) {
+	for (i = 0; i < currentReqCount; i++) {
+		if (request[i].fileType == HTML_FILE) {
 			return i;
 		}
 	}
 	return 0; // return 0 if there is no HTML is the request queue
 }
 
-int chooseImage(struct request* request1) {
+int chooseImage(RequestData* request) {
 	int i;
-	for (i = 0; i < currentAllCount; i++) {
-		if (request1[i].fileType == IMAGE_FILE) {
+	for (i = 0; i < currentReqCount; i++) {
+		if (request[i].fileType == IMAGE_FILE) {
 			return i;
 		}
 	}
@@ -135,56 +137,53 @@ int chooseImage(struct request* request1) {
 }
 
 void * threadReqProc(void * args){
-	while(1) {
-		// int socket;
-		struct request currRequest;
+	while(1){
+		RequestData requestInfo;
+		struct timeval dispatchEnd;
 		int hitNum;
 
 		pthread_mutex_lock(&mutexQueue);
 		while(currentReqCount == 0){
-			printf("Condwait called %d\n", currentReqCount);
+			printf("\n\n\n\nCondwait called %d\n", currentReqCount);
 			pthread_cond_wait(&cond_varQueue, &mutexQueue);
 		}
-		// socket = requests[0];
 		int index = 0; // if ANY or FIFO
 		if (schedalg == HPIC_MODE) {
-			index = chooseImage(all_requests);
+			index = chooseImage(requests);
 			printf("Image chosen!, index: %d\n", index);
 		} else if (schedalg == HPHC_MODE) {
-			index = chooseHTML(all_requests);
+			index = chooseHTML(requests);
 			printf("HTML chosen, index: %d\n", index);
 		}
-		currRequest = all_requests[index];
+
+		requestInfo = requests[index];
+
+		gettimeofday(&dispatchEnd, NULL);
+		requestInfo.xStatReqDispatchTime = (dispatchEnd.tv_sec * 1000000 + dispatchEnd.tv_usec) - (serverStartStamp.tv_sec * 1000000 + serverStartStamp.tv_usec);
+		requestInfo.xStatReqDispatchCount = requestsDispatched++;
 
 		int i;
 		for(i = index; i < currentReqCount - 1;i++) {
 			requests[i] = requests[i + 1];
-			all_requests[i] = all_requests[i + 1];
 		}
 		currentReqCount--;
-		currentAllCount--;
 		hitNum = hit;
-
-		// (void)close(listenfd);
+		//printf("SOCKETFD'S VALUE IS %d ", socket);
+		printf("Length of ReqCount: %d\n", currentReqCount);
 		pthread_mutex_unlock(&mutexQueue);
-		// for(int j = 0; j < 5000000000; j++);
-
-		web(currRequest, 0, hitNum);
-		//web(socket, hitNum);
+		web(requestInfo, hitNum);
 	}
 }
 /* this is a child web server process, so we can exit on errors
 static buffer and extension struct */
-void web(struct request request1, int index, int hitArg)
+void web(RequestData req, int hitArg)
 {
-	printf("Please work1, %d\n", request1.fd);
-	int fd = request1.fd;
-	char* buffer = request1.buffer;
-
-	printf("Please work 1.5 %d\n", index);
+	struct timeval requestCompletion;
+	int fd = req.clientSocket;
 	int j, file_fd, buflen;
 	long i, ret, len;
 	char * fstr;
+	char* buffer = req.buffer;
 	/*cond var*/
 	// static char buffer[BUFSIZE+1]; /* static so zero filled */
 
@@ -194,13 +193,12 @@ void web(struct request request1, int index, int hitArg)
 	// if(ret == 0 || ret == -1) {	/* read failure stop now */
 	// 	logger(FORBIDDEN,"failed to read browser request","",fd);
 	// }
-	ret = request1.ret;
+	ret = req.ret;
 	if(ret > 0 && ret < BUFSIZE){	/* return code is valid chars */
 		buffer[ret]=0;		/* terminate the buffer */
 	}else{
 	 	buffer[0]=0;
 	}
-	printf("Please work2\n");
 
 	for(i=0;i<ret;i++)	/* remove CF and LF characters */
 		if(buffer[i] == '\r' || buffer[i] == '\n')
@@ -209,7 +207,6 @@ void web(struct request request1, int index, int hitArg)
 	if( strncmp(buffer,"GET ",4) && strncmp(buffer,"get ",4) ) {//is request valid format?
 		logger(FORBIDDEN,"Only simple GET operation supported",buffer,fd);
 	}
-	printf("Please work3\n");
 	for(i=4;i<BUFSIZE;i++) { /* null terminate after the second space to ignore extra stuff */
 		if(buffer[i] == ' ') { /* string is "GET URL " +lots of other stuff */
 			buffer[i] = 0;
@@ -233,40 +230,41 @@ void web(struct request request1, int index, int hitArg)
 			break;
 		}
 	}
-	printf("Please work4\n");
 	if(fstr == 0) logger(FORBIDDEN,"file extension type not supported",buffer,fd);
 
 	if(( file_fd = open(&buffer[5],O_RDONLY)) == -1) {  /* open the file for reading */
 		logger(NOTFOUND, "failed to open file",&buffer[5],fd);
 	}
 	logger(LOG,"SEND",&buffer[5],hitArg);
+	gettimeofday(&requestCompletion, NULL);
 	len = (long)lseek(file_fd, (off_t)0, SEEK_END); /* lseek to the file end to find the length */
 	      (void)lseek(file_fd, (off_t)0, SEEK_SET); /* lseek back to the file start ready for reading */
-          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0\nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, len, fstr); /* Header + a blank line */
+          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0\nContent-Length: %ld\nConnection: close\nContent-Type: %s\nX-stat-req-arrival-count: %d\nX-stat-req-arrival-time: %ld\nX-stat-req-dispatch-count: %d\nX-stat-req-dispatch-time: %ld\nX-stat-req-complete-count: %d\nX-stat-req-complete-time: %ld\n\n", VERSION, len, fstr, req.xStatReqArrivalCount,req.xStatReqArrivalTime,req.xStatReqDispatchCount, req.xStatReqDispatchTime, xStatReqCompleteCount++,(requestCompletion.tv_sec * 1000000 + requestCompletion.tv_usec) - (serverStartStamp.tv_sec * 1000000 + serverStartStamp.tv_usec)); /* Header + a blank line */
 	logger(LOG,"Header",buffer,hitArg);
-	safeWrite(fd,buffer,strlen(buffer), "Write Error: ");
-	printf("Please work5\n");
 
-    /* Send the statistical headers described in the paper, example below
 
-    (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", xStatReqArrivalCount);
-	(void)write(fd,buffer,strlen(buffer));
-    */
+	//TODO: ADD THE OTHER STATISTICS
+	//TODO: TEST
+	//TODO: Clean code(print statements, thread, exits and destroys. malloc - free etc, safe functions, comments, delete additional files in dir)
+	//TODO: read proj doc carefully
 
+	safeWrite(fd,buffer,strlen(buffer), "Write Error: ");//puts the contents of index.html header/request
     /* send file in 8KB block - last block may be smaller */
-	printf("BUFFER: %s\n", buffer);
-	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {
+
+
+	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {//puts the contents of index.html into buffer
 		safeWrite(fd,buffer,ret, "Write Error: ");
 	}
 	sleep(1);	/* allow socket to drain before signalling the socket is closed */
 	close(fd);
-	printf("BUFFER 2: %s\n", buffer);
 	//pthread_exit(NULL)//exit(1);//the child process terminates once it has dealt with request
 }
 
 int main(int argc, char **argv)
 {
 	int i, port, listenfd, socketfd, thread_pool_size, bufferSize, file_type;//listenfd is file descriptor to listening socket.
+	struct timeval endStamp;
+	gettimeofday(&serverStartStamp, NULL);
 	//socketfd is the socket of the client (where request is coming from/or the return addr)
 	socklen_t length;
 	static struct sockaddr_in cli_addr; /* static = initialised to zeros */
@@ -312,10 +310,6 @@ int main(int argc, char **argv)
 	if((thread_pool_size = atoi(argv[3])) == 0){//HMM doesnt take 10 arg
 		thread_pool_size = 5;//get_nprocs();
 	}
-	bufferSize = atoi(argv[4]);
-
-
-
 
 	if (!strncmp(argv[5], "FIFO", 5) || !strncmp(argv[5],"ANY", 4)) {
 		schedalg = FIFO_MODE; // FIFO / ANY
@@ -328,10 +322,11 @@ int main(int argc, char **argv)
 		exit(5);
 	}
 
+	if((bufferSize = atoi(argv[4])) == 0){
+		bufferSize = 10;//default if none specified.
+	}
 
-	requests = (int*)malloc(sizeof(int )* bufferSize);//test
-
-
+	requests = (RequestData*)malloc(sizeof(requests ) * bufferSize);//test
 	// if(fork() != 0)
 	// 	return 0;  //parent returns OK to shell - so parent is gone? yes
 	// (void)signal(SIGCHLD, SIG_IGN); // ignore child death b/c main needs to be receiving requests
@@ -354,10 +349,10 @@ int main(int argc, char **argv)
 	pthread_t* threads = (pthread_t*)malloc(sizeof(pthread_t)* thread_pool_size);
 	for(int i = 0; i < thread_pool_size;i++){
 		if(pthread_create(&threads[i], NULL, &threadReqProc, NULL) != 0){
-			printf("failed to create threads\n");
+			printf("Failed to create threads\n");
 		}
 		else{
-			fprintf(stdout, "created Thread!\n");
+			fprintf(stdout, "Created Thread!\n");
 		}
 	}
 	//two cond var concepts A) a dispatcher thread whos cond var is to aportion a client request to a thread when one is available a thread needs to signal once its done
@@ -388,23 +383,21 @@ int main(int argc, char **argv)
 	//I assume its foucsed on accept b/c theres no waiting really it just sends errorback to client.
 	//this isnt what our server should be doing. it should process request when it has available thread.
 
-	all_requests = (struct request*)malloc(sizeof(all_requests) *bufferSize);
+
 
 	for(hit=1; ;hit++) {
-		printf("HERE 1\n");
 		length = sizeof(cli_addr);
 		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)//wait for requests from client put
 			logger(ERROR,"system call","accept",0);
 
-		printf("HERE 1.5\n");
+
 		// BEGIN SCHEDULING CODE
 		static char buffer[BUFSIZE+1]; /* static so zero filled */
-		int ret =read(socketfd,buffer,BUFSIZE); 	/* read Web request in one go */
-		printf("HERE 1.7\n");
+
+		int ret = read(socketfd,buffer,BUFSIZE); 	/* read Web request in one go */
 		if(ret == 0 || ret == -1) {	/* read failure stop now */
 			logger(FORBIDDEN,"failed to read browser request","",socketfd);
 		}
-		printf("HERE 2\n");
 
 		char old_buffer[strlen(buffer)];
 		strcpy(old_buffer, buffer);
@@ -413,60 +406,42 @@ int main(int argc, char **argv)
 
 		if (!strcasecmp(token + (strlen(token)-5), ".html")) {
 			file_type = HTML_FILE;
-
-			// printf("HTML!\n");
 		} else if (!strcasecmp(token + (strlen(token)-4), ".png") || !strcasecmp(token + (strlen(token)-4), ".jpg")) {
 			file_type = IMAGE_FILE;
 		} else {
 			file_type = OTHER_FILE;
 		}
-
-		printf("HERE 3\n");
-
 		// END SCHEDULING CODE
 
+
+		gettimeofday(&endStamp, NULL);
+		printf("\n\n\nBuffer LOCK\n");
 		pthread_mutex_lock(&mutexQueue);
-		/*while(busy_threads >= thread_pool_size){//queue count >= thread pool size
-			pthread_cond_wait(&cond_var, &mutex)
-		}*/
-		if(currentReqCount < bufferSize) {
-			all_requests[currentAllCount].fd = socketfd;
-			all_requests[currentAllCount].ret = ret;
-			all_requests[currentAllCount].fileType = file_type; // e.g. HTML_FILE
-			strcpy( all_requests[currentAllCount].buffer, old_buffer );
+
+		if(currentReqCount < bufferSize){
+			RequestData* req = requests + currentReqCount;
+			req->clientSocket = socketfd;
+			req->xStatReqArrivalCount = totalRequestsArrived++;
+			req->xStatReqArrivalTime = (endStamp.tv_sec * 1000000 + endStamp.tv_usec) - (serverStartStamp.tv_sec * 1000000 + serverStartStamp.tv_usec);
+			req->fd = socketfd;
+			req->ret = ret;
+			req->fileType = file_type;
+			strcpy( req->buffer , old_buffer );
 
 			currentReqCount++;
-			currentAllCount++;
-
+			printf("REQUESTS[0]: STRUCT'S SOCKET VALUE IS %d\n", requests[hit - 1].clientSocket);
+			//requests[currentReqCount++] = req;
 		}
-		printf("HERE 4\n");
+		else{
+			printf("Buffer Full!\n");
+			//(void)close(socketfd);//you will not use this fd b/c it didnt fit in the queue
+		}
 
 
 		pthread_mutex_unlock(&mutexQueue);
 		pthread_cond_signal(&cond_varQueue);
-		//(void)close(socketfd); // put at end of web function
 
-		//fill up a queue of socketfds as long as possible or number of threads.
-		//give the threads a method that takes the socketfd from the queue when queue is not empty.
-		//use mutexs on both ends so when we add to the queue its not messed up and take from queue its not messed up.
-		//also use pthreads_cond_wait to make sure we don get into busy loops when a cond is not true.
-		/*if((pid = fork()) < 0) {
-			logger(ERROR,"system call","fork",0);
-		}
-		else {
-			if(pid == 0) { 	//child
-				(void)close(listenfd);
-				web(socketfd,hit); // never returns
-			} else { 	// parent
-				(void)close(socketfd);//we gave the socket to the child who will deal w/ that request
-			}
-		}*/
 	}
-	/*for(i = 0; i < thread_pool_size;i++){
-		if(pthread_join(threads[i], NULL) != 0){
-			printf("failed to create threads");
-		}
-	}*/
 	pthread_mutex_destroy(&mutexQueue);
     pthread_cond_destroy(&cond_varQueue);
 }
