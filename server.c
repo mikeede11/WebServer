@@ -62,7 +62,7 @@ typedef struct RequestData{
 	char buffer[BUFSIZE+1]; // buffer string
 	int fd;			// file descriptor
 	int fileType;	// e.g. HTML_FILE
-	int ret;		// no idea
+	long ret;		// no idea
 
 }RequestData;
 void safeWrite(int fd, void* buf, size_t cnt, char* msg);
@@ -390,35 +390,31 @@ int main(int argc, char **argv)
 		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)//wait for requests from client put
 			logger(ERROR,"system call","accept",0);
 
+		gettimeofday(&endStamp, NULL);
 
 		// BEGIN SCHEDULING CODE
-		static char buffer[BUFSIZE+1]; /* static so zero filled */
-
-		int ret = read(socketfd,buffer,BUFSIZE); 	/* read Web request in one go */
-		if(ret == 0 || ret == -1) {	/* read failure stop now */
-			logger(FORBIDDEN,"failed to read browser request","",socketfd);
-		}
-
-		char old_buffer[strlen(buffer)];
-		strcpy(old_buffer, buffer);
-		char* token = strtok(buffer, " ");
-		token = strtok(NULL, " ");
-
-		if (!strcasecmp(token + (strlen(token)-5), ".html")) {
-			file_type = HTML_FILE;
-		} else if (!strcasecmp(token + (strlen(token)-4), ".png") || !strcasecmp(token + (strlen(token)-4), ".jpg")) {
-			file_type = IMAGE_FILE;
-		} else {
-			file_type = OTHER_FILE;
-		}
-		// END SCHEDULING CODE
-
-
-		gettimeofday(&endStamp, NULL);
-		printf("\n\n\nBuffer LOCK\n");
 		pthread_mutex_lock(&mutexQueue);
-
 		if(currentReqCount < bufferSize){
+			static char buffer[BUFSIZE+1]; /* static so zero filled */
+
+			long ret = read(socketfd,buffer,BUFSIZE); 	/* read Web request in one go */
+			if(ret == 0 || ret == -1) {	/* read failure stop now */
+				logger(FORBIDDEN,"failed to read browser request","",socketfd);
+			}
+
+			char old_buffer[strlen(buffer)];
+			strcpy(old_buffer, buffer);
+			char* token = strtok(buffer, " ");
+			token = strtok(NULL, " ");
+
+			if (!strcasecmp(token + (strlen(token)-5), ".html")) {
+				file_type = HTML_FILE;
+			} else if (!strcasecmp(token + (strlen(token)-4), ".png") || !strcasecmp(token + (strlen(token)-4), ".jpg")) {
+				file_type = IMAGE_FILE;
+			} else {
+				file_type = OTHER_FILE;
+			}
+			// END SCHEDULING CODE
 			RequestData* req = requests + currentReqCount;
 			req->clientSocket = socketfd;
 			req->xStatReqArrivalCount = totalRequestsArrived++;
@@ -427,9 +423,8 @@ int main(int argc, char **argv)
 			req->ret = ret;
 			req->fileType = file_type;
 			strcpy( req->buffer , old_buffer );
-
 			currentReqCount++;
-			printf("REQUESTS[0]: STRUCT'S SOCKET VALUE IS %d\n", requests[hit - 1].clientSocket);
+			//printf("REQUESTS[0]: STRUCT'S SOCKET VALUE IS %d\n", requests[hit - 1].clientSocket);
 			//requests[currentReqCount++] = req;
 		}
 		else{
@@ -437,7 +432,7 @@ int main(int argc, char **argv)
 			//(void)close(socketfd);//you will not use this fd b/c it didnt fit in the queue
 		}
 
-
+		printf("\n\n\nBuffer LOCK\n");
 		pthread_mutex_unlock(&mutexQueue);
 		pthread_cond_signal(&cond_varQueue);
 
